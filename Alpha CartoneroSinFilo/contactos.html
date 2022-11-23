@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloGnral.css">
+    <link rel="stylesheet" href="css/estiloContactos.css">
+    <script src="js/validacion.js"></script>
+    <title>Pagina Contacto</title>
+</head>
+<body>
+    <nav class="navBar" id="navBar">
+        <div class="navB">
+            <a class="logo" href="index.html">
+                <img src="imagenes/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navLista">
+            <ul>
+                <li> <a class="navListaA" href="index.html">Home</a></li>
+                <li> <a class="navListaA" href="acerca.html">Acerca</a></li>
+                <li> <a class="navListaA" href="productos.html">Productos</a></li>
+                <li> <a class="navListaA" href="contactos.html">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="mainContactos" id="sectionFlecha">
+        <section class="sectionContacto">
+            <h2>Contactanos:</h2>
+            <article class="articleContacto">
+                <div class="textContacto">
+                    <h4 class="hContacto">Email: </h4>
+                    <a href="mailto:Cartonerosinfilo@gmail.com">
+                        <p class="pContacto">Cartonerosinfilo@gmail.com</p>
+                    </a>
+                </div>
+                <div class="textContacto">
+                    <h4 class="hContacto">Movil: </h4>
+                    <p class="pContacto">+569 90151200</p>
+                </div>
+                <div class="textContacto">
+                    <h4 class="hContacto">Direccion: </h4>
+                    <p class="pContacto">San Felipe, Valparaiso, Chile</p>
+                </div>
+            </article>
+            <article class="formContacto">
+                <!-- mailto:Cartonerosinfilo@gmail.com debe ir en Action pero no valida antes -->
+                <form action="#" method="post" name="form1" enctype="text/plain" onsubmit="return valida();">
+                    <div class="alinear">    
+                        <h4>Nombre: </h4>
+                        <input class="inputContacto" type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="alinear">
+                        <h4>Email: </h4>
+                        <input class="inputContacto" type="email" name="email"  id="email">
+                    </div>
+                    <div class="alinear">
+                        <h4>Asunto: </h4>
+                        <input class="inputContacto" type="text" name="asunto" id="asunto">
+                    </div>
+                    <div class="alinear">
+                        <h4>Comentarios: </h4>
+                        <textarea name="comentario" id="comentario"></textarea>
+                    </div>
+                    <div class="centro">
+                        <input class="btnContacto" type="submit" name="Submit" value="Enviar"/>
+                    </div>
+                  </form>
+            </article>
+        </section>
+        <aside class="asideContacto">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.423218599736!2d-70.70751318481916!3d-32.72795108098677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa93b4b7a175c124c!2zMzLCsDQzJzQwLjYiUyA3MMKwNDInMTkuMiJX!5e0!3m2!1ses!2scl!4v1641540228699!5m2!1ses!2scl" allowfullscreen="" loading="lazy"></iframe>
+        </aside>
+    </main>
+    <footer class="foot" id="foot">
+        <div class="footTitulo">
+            <h1>Contacto </h1><br>
+        </div>
+        <a href="#sectionFlecha" class="volverArribaFooter">
+            <img src="imagenes/flechaArriba.png" alt="Arriba" class="volverArribaFlechaFooter">
+        </a>
+        <div class="redes">
+            <div class="contactoRed">
+                <a href="https://www.instagram.com/editorialcartonerosinfilo/">
+                    <img src="imagenes/instaLogo.png" alt="Instagram">
+                    <p>@Cartonerosinfilo</p>
+                </a>
+            </div>
+            <div class="contactoRed">
+                <a href="mailto:Cartonerosinfilo@gmail.com">
+                    <img src="imagenes/maillogo.png" alt="GMail">
+                    <p>Cartonerosinfilo@gmail.com</p>
+                </a>
+            </div>
+            <div class="contactoRed">
+                <img src="imagenes/wA.png" alt="Whatsapp">
+                <p>+56 9 9015 1200</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

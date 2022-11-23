@@ -1,0 +1,121 @@
+/*-------Inicializacion-------------*/
+*{
+    margin: 0;
+    font-family: Helvetica;
+}
+/*----------------Fin--------------*/
+/*-------------Nav Bar-------------*/
+.navBar{
+    display: inline-block;
+    position: sticky;
+    background-color: white;
+    height: 7%;
+    border-bottom: groove;
+    border-color: black;
+    padding-bottom: 10px;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #151E3D;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.logo img{
+    height: auto;
+    width: 8%;
+}
+
+.navLista{
+    position: absolute;
+    display: inline-block;
+    width: 76%;
+    text-align: right;
+    font-size: 20px;
+    right: 2%;
+    top: 35%;
+}
+
+.navLista ul li{
+    display: inline;
+    border-right: 2px solid grey;   
+}
+
+.navListaA{
+    display: inline-block;
+    margin: 0  5px;
+}
+
+.navListaA:hover, .ingresar:hover ,.laudum:hover {
+    transition: 0.1s all ease;
+	transform:scale(1.1);
+}
+/*---------------------Fin-------------------*/
+/*-----------Footer------------*/
+.foot{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    border-top: solid white;
+    z-index: 20;
+    padding: 15px 0 10px;
+    bottom: 0;
+}
+
+.footTitulo{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.redes{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contactoRed{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.contactoRed p{
+    color: #88959e;
+    padding-top: 5px;
+}
+
+.contactoRed a{
+    text-decoration: none;
+}
+
+.contactoRed img{
+    width: 60px;
+    height: auto;
+}
+
+.volverArribaFooter{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    z-index: 10;
+    width: 51.2px;
+    height: 51.2px;
+}
+
+.volverArribaFlechaFooter{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    z-index: 10;
+}
+/*---------Footer Fin----------*/

@@ -1,0 +1,57 @@
+/*------Main--------*/
+.mainAcerca{
+    display: inline-block;
+    width: 90%;
+    padding: 0 5%;
+}
+/*--------Fin-------*/
+/*------Section-----*/
+.sectionAcerca{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 100%;
+    padding: 40px;
+    border:2px solid black;
+    margin-top: 20px;
+}
+
+.articleAcerca{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.articleAcerca:first-child{
+    padding-top: 10px;
+
+}
+
+.textoAcerca h4{
+    font-size: 25px;
+}
+
+.textoAcerca p{
+    padding: 20px 0;
+}
+
+/*----------Fin----------*/
+/*--------Article--------*/
+.asideAcerca{
+    float: right;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    padding-top: 20px;
+}
+
+.acercaCaja img{
+    width: 100%;
+    height: 100%;
+    border:2px solid black;
+}
+
+.acercaCaja video{
+    width: 100%;
+    height: 100%;
+    border:2px solid black;
+}
+/*----------Fin-----------*/

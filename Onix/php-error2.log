@@ -1,0 +1,2309 @@
+[14-Jul-2022 11:04:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:04:09 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 11:04:09 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:04:09 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:04:09 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 11:04:09 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 11:04:09 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 11:04:09 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:04:09 UTC] PHP Notice:  Undefined index: Nombre in C:\wamp64\www\Onix\models\usermodel.php on line 147
+[14-Jul-2022 11:04:09 UTC] PHP Stack trace:
+[14-Jul-2022 11:04:09 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 11:04:09 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 11:04:09 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 11:04:09 UTC] PHP   4. LoginModel->login($rut = '12345678-3', $password = '1234') C:\wamp64\www\Onix\controllers\login.php:36
+[14-Jul-2022 11:04:09 UTC] PHP   5. UserModel->from($array = ['rut' => '12345678-3', 'nombre' => 'Coloso', 'apellidoP' => 'Santander', 'apellidoM' => 'Premier', 'telefono' => '+56912345678', 'correo' => 'correo4@gmail.com', 'clave' => '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke', 'fechaNacimiento' => '2022-07-23', 'role' => 'user']) C:\wamp64\www\Onix\models\loginmodel.php:23
+[14-Jul-2022 11:04:09 UTC] PHP Notice:  Undefined index: ApellidoM in C:\wamp64\www\Onix\models\usermodel.php on line 149
+[14-Jul-2022 11:04:09 UTC] PHP Stack trace:
+[14-Jul-2022 11:04:09 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 11:04:09 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 11:04:09 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 11:04:09 UTC] PHP   4. LoginModel->login($rut = '12345678-3', $password = '1234') C:\wamp64\www\Onix\controllers\login.php:36
+[14-Jul-2022 11:04:09 UTC] PHP   5. UserModel->from($array = ['rut' => '12345678-3', 'nombre' => 'Coloso', 'apellidoP' => 'Santander', 'apellidoM' => 'Premier', 'telefono' => '+56912345678', 'correo' => 'correo4@gmail.com', 'clave' => '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke', 'fechaNacimiento' => '2022-07-23', 'role' => 'user']) C:\wamp64\www\Onix\models\loginmodel.php:23
+[14-Jul-2022 11:04:09 UTC] LoginModel::login->success
+[14-Jul-2022 11:04:09 UTC] SessionController::initialize-> Comprobamos el user 
+[14-Jul-2022 11:04:09 UTC] SessionController::authorizeAccess-> Comprobamos el rol user
+[14-Jul-2022 11:04:09 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 172
+[14-Jul-2022 11:04:09 UTC] PHP Stack trace:
+[14-Jul-2022 11:04:09 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 11:04:09 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 11:04:09 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 11:04:09 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = ''; private $apellidoP = 'Santander'; private $apellidoM = ''; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' }; public $Nombre = NULL; public $ApellidoM = NULL }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 11:04:09 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 11:04:09 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 11:04:09 UTC] SessionController::authorizeAccess-> Comprobamos el rol 
+[14-Jul-2022 11:04:09 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 173
+[14-Jul-2022 11:04:09 UTC] PHP Stack trace:
+[14-Jul-2022 11:04:09 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 11:04:09 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 11:04:09 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 11:04:09 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = ''; private $apellidoP = 'Santander'; private $apellidoM = ''; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' }; public $Nombre = NULL; public $ApellidoM = NULL }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 11:04:09 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 11:04:09 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 11:04:09 UTC] Login::initialize-> devuelve user un objeto de tipo user 
+[14-Jul-2022 11:04:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:04:09 UTC] APP::construct-> Url get 
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 11:04:09 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:04:09 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 11:04:09 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:04:09 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:04:09 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:04:09 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:04:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:04:09 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:04:09 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:04:09 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:04:09 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:04:09 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 11:04:09 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:04:09 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 11:04:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:04:09 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 11:04:09 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:04:09 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:04:09 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:04:09 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:04:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:04:09 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:04:09 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:04:09 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:04:09 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:04:09 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:04:09 UTC] Hubo un error en el segundo else
+//////////////////////////////////////////////////////////////////////[14-Jul-2022 11:08:56 UTC] Inicio de Aplicion
+[14-Jul-2022 11:08:56 UTC] APP::construct-> Url get logout
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->url rtrim logout
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController controllers/logout.php
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/logout.php
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] logout
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:08:56 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 11:08:56 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/logoutmodel.php
+[14-Jul-2022 11:08:56 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:08:56 UTC] Controller::redirect-> header Location http://onix/login/index
+[14-Jul-2022 11:08:56 UTC] Inicio de Aplicion
+[14-Jul-2022 11:08:56 UTC] APP::construct-> Url get login/index
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->url rtrim login/index
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/index
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 11:08:56 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:08:56 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:08:56 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 11:08:56 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:08:56 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:08:56 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:08:56 UTC] APP::method_exists->No existe un metodo
+[14-Jul-2022 11:08:56 UTC] Inicio de Aplicion
+[14-Jul-2022 11:08:56 UTC] APP::construct-> Url get 
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 11:08:56 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 11:08:56 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 11:08:56 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:08:56 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:08:56 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:08:56 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:08:56 UTC] Inicio de Aplicion
+[14-Jul-2022 11:08:56 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:08:56 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:08:56 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:08:56 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:08:56 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:08:56 UTC] Hubo un error en el segundo else
+//////////////////////////////////////////////////////////
+[14-Jul-2022 11:09:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:16 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 11:09:16 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:09:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:09:16 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 11:09:16 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 11:09:16 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 11:09:16 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:09:16 UTC] LoginModel::login-> password no es igual
+[14-Jul-2022 11:09:16 UTC] Controller::redirect-> header Location http://onix/?error=106
+[14-Jul-2022 11:09:16 UTC] Login::initialize-> no entran los datos 
+[14-Jul-2022 11:09:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:16 UTC] APP::construct-> Url get 
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 11:09:16 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?error=106
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?error=106
+[14-Jul-2022 11:09:16 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 11:09:16 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:09:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:09:16 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:09:16 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:09:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:16 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:09:16 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:09:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:09:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:09:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:09:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:09:51 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:51 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 11:09:51 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:09:51 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:09:51 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 11:09:51 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 11:09:51 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 11:09:51 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:09:51 UTC] LoginModel::login->success
+[14-Jul-2022 11:09:51 UTC] SessionController::initialize-> Comprobamos el user 
+[14-Jul-2022 11:09:51 UTC] SessionController::authorizeAccess-> Comprobamos el rol user
+[14-Jul-2022 11:09:51 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 172
+[14-Jul-2022 11:09:51 UTC] PHP Stack trace:
+[14-Jul-2022 11:09:51 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 11:09:51 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 11:09:51 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 11:09:51 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 11:09:51 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 11:09:51 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 11:09:51 UTC] SessionController::authorizeAccess-> Comprobamos el rol 
+[14-Jul-2022 11:09:51 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 173
+[14-Jul-2022 11:09:51 UTC] PHP Stack trace:
+[14-Jul-2022 11:09:51 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 11:09:51 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 11:09:51 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 11:09:51 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 11:09:51 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 11:09:51 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 11:09:51 UTC] Login::initialize-> devuelve user un objeto de tipo user 
+[14-Jul-2022 11:09:51 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:51 UTC] APP::construct-> Url get 
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 11:09:51 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:09:51 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 11:09:51 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:09:51 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:09:51 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:09:51 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:09:51 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:51 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:09:51 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:09:51 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:09:51 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:09:51 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 11:09:51 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:09:51 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 11:09:51 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:51 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 11:09:51 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:09:51 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:09:51 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:09:51 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:09:51 UTC] Inicio de Aplicion
+[14-Jul-2022 11:09:51 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:09:51 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:09:51 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:09:51 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:09:51 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:09:51 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:13:02 UTC] Inicio de Aplicion
+[14-Jul-2022 11:13:02 UTC] APP::construct-> Url get login
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->url rtrim login
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:13:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 11:13:02 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:13:02 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:13:02 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:13:02 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:13:02 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:13:02 UTC] Inicio de Aplicion
+[14-Jul-2022 11:13:02 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:13:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:13:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:13:02 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:13:02 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 11:13:02 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:13:02 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 11:13:02 UTC] Inicio de Aplicion
+[14-Jul-2022 11:13:02 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 11:13:02 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:13:02 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:13:02 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:13:02 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:13:02 UTC] Inicio de Aplicion
+[14-Jul-2022 11:13:02 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:13:02 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:13:02 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:13:02 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:13:02 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:13:02 UTC] Hubo un error en el segundo else
+/////////////////////////////////////////////
+[14-Jul-2022 11:14:10 UTC] Inicio de Aplicion
+[14-Jul-2022 11:14:10 UTC] APP::construct-> Url get login
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->url rtrim login
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:14:10 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 11:14:10 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:14:10 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:14:10 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:14:10 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:14:10 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:14:10 UTC] Inicio de Aplicion
+[14-Jul-2022 11:14:10 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:14:10 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:14:10 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:14:10 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:14:10 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 11:14:10 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:14:10 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 11:14:10 UTC] Inicio de Aplicion
+[14-Jul-2022 11:14:10 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 11:14:10 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 11:14:10 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:14:10 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:14:10 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:14:10 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:14:11 UTC] Inicio de Aplicion
+[14-Jul-2022 11:14:11 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:14:11 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:14:11 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:14:11 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:14:11 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:14:11 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:14:11 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:16:20 UTC] Inicio de Aplicion
+[14-Jul-2022 11:16:20 UTC] Inicio de Aplicion
+[14-Jul-2022 11:16:20 UTC] APP::construct-> Url get img/recetas/recetaJuanPerez1.png.png
+[14-Jul-2022 11:16:20 UTC] APP::construct-> Url get img/recetas/recetaJuanPerez2.png.png
+[14-Jul-2022 11:16:20 UTC] APP::archivoController->url rtrim img/recetas/recetaJuanPerez1.png.png
+[14-Jul-2022 11:16:20 UTC] APP::archivoController->url rtrim img/recetas/recetaJuanPerez2.png.png
+[14-Jul-2022 11:16:20 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:16:20 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:16:20 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:16:20 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:16:20 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:16:20 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:16:20 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:16:20 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:16:20 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:16:20 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:16:50 UTC] Inicio de Aplicion
+[14-Jul-2022 11:16:50 UTC] Inicio de Aplicion
+[14-Jul-2022 11:16:50 UTC] APP::construct-> Url get img/recetas/recetaJuanPerez2.png.png
+[14-Jul-2022 11:16:50 UTC] APP::construct-> Url get img/recetas/recetaJuanPerez1.png.png
+[14-Jul-2022 11:16:50 UTC] APP::archivoController->url rtrim img/recetas/recetaJuanPerez2.png.png
+[14-Jul-2022 11:16:50 UTC] APP::archivoController->url rtrim img/recetas/recetaJuanPerez1.png.png
+[14-Jul-2022 11:16:50 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:16:50 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:16:50 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:16:50 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:16:50 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:16:50 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:16:50 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:16:50 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:16:50 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:16:50 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:16:52 UTC] Inicio de Aplicion
+[14-Jul-2022 11:16:52 UTC] Inicio de Aplicion
+[14-Jul-2022 11:16:52 UTC] APP::construct-> Url get img/recetas/recetaJuanPerez1.png.png
+[14-Jul-2022 11:16:52 UTC] APP::construct-> Url get img/recetas/recetaJuanPerez2.png.png
+[14-Jul-2022 11:16:52 UTC] APP::archivoController->url rtrim img/recetas/recetaJuanPerez1.png.png
+[14-Jul-2022 11:16:52 UTC] APP::archivoController->url rtrim img/recetas/recetaJuanPerez2.png.png
+[14-Jul-2022 11:16:52 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:16:52 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:16:52 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:16:52 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:16:52 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:16:52 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:16:52 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:16:52 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:16:52 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:16:52 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:09 UTC] APP::construct-> Url get index.html
+[14-Jul-2022 11:25:09 UTC] APP::archivoController->url rtrim index.html
+[14-Jul-2022 11:25:09 UTC] APP::archivoController->Este es el archivoController controllers/index.html.php
+[14-Jul-2022 11:25:09 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:09 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:09 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:09 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:09 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:09 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:25:09 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:25:09 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:25:09 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:09 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:09 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:09 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:13 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:13 UTC] APP::construct-> Url get 
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 11:25:13 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:25:13 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 11:25:13 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:25:13 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:25:13 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:25:13 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:25:13 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:13 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:25:13 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:25:13 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:25:13 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:25:13 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 11:25:13 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:25:13 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 11:25:13 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:13 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:25:13 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:25:13 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:13 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:13 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:13 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:16 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:25:16 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:25:16 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:25:16 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:25:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 11:25:16 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:25:16 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 11:25:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:16 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 11:25:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:16 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 11:25:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:16 UTC] APP::construct-> Url get img/logo.png
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->url rtrim img/logo.png
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 11:25:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:25:16 UTC] Inicio de Aplicion
+[14-Jul-2022 11:25:16 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:25:16 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:25:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:25:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:25:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:25:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:14:35 UTC] Inicio de Aplicion
+[14-Jul-2022 14:14:35 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:14:35 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:14:35 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:14:35 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:14:35 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 14:14:35 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:14:35 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 14:14:35 UTC] Inicio de Aplicion
+[14-Jul-2022 14:14:35 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 14:14:35 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:14:35 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:14:35 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:14:35 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:14:35 UTC] Inicio de Aplicion
+[14-Jul-2022 14:14:35 UTC] APP::construct-> Url get img/logo.png
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->url rtrim img/logo.png
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 14:14:35 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:14:35 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:14:35 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:14:35 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:14:35 UTC] Inicio de Aplicion
+[14-Jul-2022 14:14:35 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 14:14:35 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:14:35 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:14:35 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:14:35 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:14:35 UTC] Inicio de Aplicion
+[14-Jul-2022 14:14:35 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:14:35 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:14:35 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:14:35 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:14:35 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:14:35 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:04 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:04 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:16:04 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:16:04 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:16:04 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:16:04 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 14:16:04 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:16:04 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 14:16:04 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:04 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 14:16:04 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:04 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:04 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:04 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:04 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:04 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 14:16:04 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:04 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:04 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:04 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:04 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:04 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:16:04 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:16:04 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:04 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:04 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:04 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:06 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:06 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:16:06 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:16:06 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:16:06 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:16:06 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 14:16:06 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:16:06 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 14:16:06 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:06 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 14:16:06 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:06 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:06 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:06 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:06 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:06 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 14:16:06 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:06 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:06 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:06 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:06 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:06 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:16:06 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:16:06 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:06 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:06 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:06 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:08 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:08 UTC] APP::construct-> Url get index.html
+[14-Jul-2022 14:16:08 UTC] APP::archivoController->url rtrim index.html
+[14-Jul-2022 14:16:08 UTC] APP::archivoController->Este es el archivoController controllers/index.html.php
+[14-Jul-2022 14:16:08 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:08 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:08 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:08 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:16:08 UTC] Inicio de Aplicion
+[14-Jul-2022 14:16:08 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:16:08 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:16:08 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:16:08 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:16:08 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:16:08 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:16:08 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:17:22 UTC] Inicio de Aplicion
+[14-Jul-2022 14:17:22 UTC] APP::construct-> Url get 
+[14-Jul-2022 14:17:22 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 14:17:22 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:17:22 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 14:17:22 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 14:17:22 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 14:17:22 UTC] Login::render-> carga de Login
+[14-Jul-2022 14:17:22 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 14:17:22 UTC] Inicio de Aplicion
+[14-Jul-2022 14:17:22 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 14:17:22 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 14:17:22 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 14:17:22 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 14:17:22 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:17:22 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:17:22 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:17:22 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:17:22 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 14:17:22 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:17:22 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 14:17:23 UTC] Inicio de Aplicion
+[14-Jul-2022 14:17:23 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:17:23 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:17:23 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:17:23 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:17:23 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:17:23 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:17:23 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:10 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:10 UTC] APP::construct-> Url get index.html
+[14-Jul-2022 14:21:10 UTC] APP::archivoController->url rtrim index.html
+[14-Jul-2022 14:21:10 UTC] APP::archivoController->Este es el archivoController controllers/index.html.php
+[14-Jul-2022 14:21:10 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:10 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:10 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:10 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:10 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:10 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:21:10 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:21:10 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:21:10 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:10 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:10 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:10 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:14 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:14 UTC] APP::construct-> Url get index.html
+[14-Jul-2022 14:21:14 UTC] APP::archivoController->url rtrim index.html
+[14-Jul-2022 14:21:14 UTC] APP::archivoController->Este es el archivoController controllers/index.html.php
+[14-Jul-2022 14:21:14 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:14 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:14 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:14 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:14 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:14 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:21:14 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:21:14 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:21:14 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:14 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:14 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:14 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:16 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:16 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 14:21:16 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 14:21:16 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 14:21:16 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 14:21:16 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:21:16 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:21:16 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:21:16 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:21:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 14:21:16 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:21:16 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 14:21:16 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:16 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:21:16 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:21:16 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:21:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:22 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:22 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 14:21:22 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 14:21:22 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 14:21:22 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 14:21:22 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:21:22 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:21:22 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:21:22 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:21:22 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 14:21:22 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:21:22 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 14:21:23 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:23 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:21:23 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:21:23 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:21:23 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:23 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:23 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:23 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:27 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:27 UTC] APP::construct-> Url get sadcv
+[14-Jul-2022 14:21:27 UTC] APP::archivoController->url rtrim sadcv
+[14-Jul-2022 14:21:27 UTC] APP::archivoController->Este es el archivoController controllers/sadcv.php
+[14-Jul-2022 14:21:27 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:27 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:27 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:27 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:21:27 UTC] Inicio de Aplicion
+[14-Jul-2022 14:21:27 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:21:27 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:21:27 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:21:27 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:21:27 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:21:27 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:21:27 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:25:05 UTC] Inicio de Aplicion
+[14-Jul-2022 14:25:05 UTC] APP::construct-> Url get sadcv
+[14-Jul-2022 14:25:05 UTC] APP::archivoController->url rtrim sadcv
+[14-Jul-2022 14:25:05 UTC] APP::archivoController->Este es el archivoController controllers/sadcv.php
+[14-Jul-2022 14:25:05 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:25:05 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:25:05 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:25:05 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:25:05 UTC] Inicio de Aplicion
+[14-Jul-2022 14:25:05 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:25:05 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:25:05 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:25:05 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:25:05 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:25:05 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:25:05 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:26:29 UTC] Inicio de Aplicion
+[14-Jul-2022 14:26:29 UTC] APP::construct-> Url get sadcv
+[14-Jul-2022 14:26:29 UTC] APP::archivoController->url rtrim sadcv
+[14-Jul-2022 14:26:29 UTC] APP::archivoController->Este es el archivoController controllers/sadcv.php
+[14-Jul-2022 14:26:29 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:26:29 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:26:29 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:26:29 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:26:29 UTC] Inicio de Aplicion
+[14-Jul-2022 14:26:29 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:26:29 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:26:29 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:26:29 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:26:29 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:26:29 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:26:29 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:26:52 UTC] Inicio de Aplicion
+[14-Jul-2022 14:26:52 UTC] APP::construct-> Url get sadcv
+[14-Jul-2022 14:26:52 UTC] APP::archivoController->url rtrim sadcv
+[14-Jul-2022 14:26:52 UTC] APP::archivoController->Este es el archivoController controllers/sadcv.php
+[14-Jul-2022 14:26:52 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:26:52 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:26:52 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:26:52 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:26:53 UTC] Inicio de Aplicion
+[14-Jul-2022 14:26:53 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:26:53 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:26:53 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:26:53 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:26:53 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:26:53 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:26:53 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:27:00 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:00 UTC] APP::construct-> Url get 
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 14:27:00 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:27:00 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 14:27:00 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 14:27:00 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 14:27:00 UTC] Login::render-> carga de Login
+[14-Jul-2022 14:27:00 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 14:27:00 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:00 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:27:00 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:27:00 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:27:00 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:27:00 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 14:27:00 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:27:00 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 14:27:00 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:00 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:27:00 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:27:00 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:27:00 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:27:00 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:27:00 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:27:03 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:03 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 14:27:03 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 14:27:03 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 14:27:03 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 14:27:03 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:27:03 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:27:03 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:27:03 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:27:03 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 14:27:03 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:27:03 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 14:27:03 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:03 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 14:27:03 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 14:27:03 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 14:27:03 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:27:03 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:27:03 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:27:04 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:27:04 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:04 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 14:27:04 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 14:27:04 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 14:27:04 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:27:04 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:27:04 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:27:04 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:27:04 UTC] Inicio de Aplicion
+[14-Jul-2022 14:27:04 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:27:04 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:27:04 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:27:04 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:27:04 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:27:04 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:27:04 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:29:21 UTC] Inicio de Aplicion
+[14-Jul-2022 14:29:21 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:29:21 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:29:21 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:29:21 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:29:21 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 14:29:21 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:29:21 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 14:29:21 UTC] Inicio de Aplicion
+[14-Jul-2022 14:29:21 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 14:29:21 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:29:21 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:29:21 UTC] Inicio de Aplicion
+[14-Jul-2022 14:29:21 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:29:21 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:29:21 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 14:29:21 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:29:21 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:29:21 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:29:21 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:29:21 UTC] Inicio de Aplicion
+[14-Jul-2022 14:29:21 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:29:21 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:29:21 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:29:21 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:29:21 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:29:21 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:29:24 UTC] Inicio de Aplicion
+[14-Jul-2022 14:29:24 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 14:29:24 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 14:29:24 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 14:29:24 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 14:29:24 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:29:24 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 14:29:24 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:29:24 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 14:29:24 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 14:29:24 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:29:24 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 14:29:24 UTC] Inicio de Aplicion
+[14-Jul-2022 14:29:24 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:29:24 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:29:24 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:29:24 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:29:24 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:29:24 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:29:24 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:53:53 UTC] Inicio de Aplicion
+[14-Jul-2022 14:53:53 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\session.php on line 24
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. Session->getCurrentUser() C:\wamp64\www\Onix\clases\sessionController.php:92
+[14-Jul-2022 14:53:53 UTC] Conexión a BD exitosa
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 93
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 94
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 95
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 96
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 97
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 98
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 99
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 100
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 101
+[14-Jul-2022 14:53:53 UTC] PHP Stack trace:
+[14-Jul-2022 14:53:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 14:53:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 14:53:53 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 14:53:53 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 14:53:53 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::getUserSessionData -> 
+[14-Jul-2022 14:53:53 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 14:53:53 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:53:53 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 14:53:53 UTC] Inicio de Aplicion
+[14-Jul-2022 14:53:53 UTC] APP::construct-> Url get 
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 14:53:53 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 14:53:53 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 14:53:53 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 14:53:53 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 14:53:53 UTC] Login::render-> carga de Login
+[14-Jul-2022 14:53:53 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 14:53:53 UTC] Inicio de Aplicion
+[14-Jul-2022 14:53:53 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:53:53 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:53:53 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:53:53 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:53:53 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:53:53 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:54:12 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:12 UTC] APP::construct-> Url get 
+[14-Jul-2022 14:54:12 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 14:54:12 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 14:54:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:54:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 14:54:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 14:54:12 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 14:54:12 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 14:54:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 14:54:12 UTC] Login::render-> carga de Login
+[14-Jul-2022 14:54:12 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 14:54:12 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:12 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:54:12 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:54:12 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:54:12 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:54:12 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:54:12 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:54:12 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:54:16 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:16 UTC] APP::construct-> Url get signup
+[14-Jul-2022 14:54:16 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 14:54:16 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 14:54:16 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 14:54:16 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 14:54:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:54:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 14:54:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 14:54:16 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 14:54:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 14:54:16 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:54:16 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 14:54:16 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:16 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:54:16 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:54:16 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:54:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:54:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:54:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:54:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:54:18 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:18 UTC] APP::construct-> Url get 
+[14-Jul-2022 14:54:18 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 14:54:18 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 14:54:18 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:54:18 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 14:54:18 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 14:54:18 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 14:54:18 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 14:54:18 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 14:54:18 UTC] Login::render-> carga de Login
+[14-Jul-2022 14:54:18 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 14:54:18 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:18 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:54:18 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:54:18 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:54:18 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:54:18 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:54:18 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:54:18 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:54:20 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:20 UTC] APP::construct-> Url get signup
+[14-Jul-2022 14:54:20 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 14:54:20 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 14:54:20 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 14:54:20 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 14:54:20 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:54:20 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 14:54:20 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 14:54:20 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 14:54:20 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 14:54:20 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 14:54:20 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 14:54:20 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:20 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:54:20 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:54:20 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:54:20 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:54:20 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:54:20 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:54:20 UTC] Hubo un error en el segundo else
+[14-Jul-2022 14:54:21 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:21 UTC] APP::construct-> Url get 
+[14-Jul-2022 14:54:21 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 14:54:21 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 14:54:21 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 14:54:21 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 14:54:21 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 14:54:21 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 14:54:21 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 14:54:21 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 14:54:21 UTC] Login::render-> carga de Login
+[14-Jul-2022 14:54:21 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 14:54:21 UTC] Inicio de Aplicion
+[14-Jul-2022 14:54:21 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 14:54:21 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 14:54:21 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 14:54:21 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 14:54:21 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 14:54:21 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 14:54:21 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:02 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:02 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 15:04:02 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:02 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:02 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 15:04:02 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 15:04:02 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 15:04:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:02 UTC] LoginModel::login->success
+[14-Jul-2022 15:04:02 UTC] SessionController::initialize-> Comprobamos el user 
+[14-Jul-2022 15:04:02 UTC] SessionController::authorizeAccess-> Comprobamos el rol user
+[14-Jul-2022 15:04:02 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 172
+[14-Jul-2022 15:04:02 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:02 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:02 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:02 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 15:04:02 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 15:04:02 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 15:04:02 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 15:04:02 UTC] SessionController::authorizeAccess-> Comprobamos el rol 
+[14-Jul-2022 15:04:02 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 173
+[14-Jul-2022 15:04:02 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:02 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:02 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:02 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 15:04:02 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 15:04:02 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 15:04:02 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 15:04:02 UTC] Login::initialize-> devuelve user un objeto de tipo user 
+[14-Jul-2022 15:04:02 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:02 UTC] APP::construct-> Url get 
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 15:04:02 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 15:04:02 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:02 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:02 UTC] Login::render-> carga de Login
+[14-Jul-2022 15:04:02 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 15:04:02 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:02 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 15:04:02 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:02 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:02 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 15:04:02 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:04:02 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 15:04:02 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:02 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:04:02 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:04:02 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:02 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:02 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:02 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:12 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:12 UTC] APP::construct-> Url get login
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->url rtrim login
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 15:04:12 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:12 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:04:12 UTC] Login::render-> carga de Login
+[14-Jul-2022 15:04:12 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 15:04:12 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:12 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 15:04:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:12 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 15:04:12 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:04:12 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 15:04:12 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:12 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:04:12 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:04:12 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:12 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:12 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:12 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:40 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:40 UTC] APP::construct-> Url get sdadf
+[14-Jul-2022 15:04:40 UTC] APP::archivoController->url rtrim sdadf
+[14-Jul-2022 15:04:40 UTC] APP::archivoController->Este es el archivoController controllers/sdadf.php
+[14-Jul-2022 15:04:40 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:40 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:40 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:40 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:41 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:41 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:04:41 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:04:41 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:04:41 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:41 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:41 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:41 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:44 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:44 UTC] APP::construct-> Url get 
+[14-Jul-2022 15:04:44 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 15:04:44 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:44 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 15:04:44 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:44 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:44 UTC] Login::render-> carga de Login
+[14-Jul-2022 15:04:44 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 15:04:44 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:44 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 15:04:44 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 15:04:44 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 15:04:44 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 15:04:44 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:44 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 15:04:44 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:44 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:44 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 15:04:44 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:04:44 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 15:04:45 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:45 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:04:45 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:04:45 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:04:45 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:45 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:45 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:45 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:48 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:48 UTC] APP::construct-> Url get logout
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->url rtrim logout
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController controllers/logout.php
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/logout.php
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] logout
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:48 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 15:04:48 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/logoutmodel.php
+[14-Jul-2022 15:04:48 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:04:48 UTC] Controller::redirect-> header Location http://onix/login/index
+[14-Jul-2022 15:04:48 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:48 UTC] APP::construct-> Url get login/index
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->url rtrim login/index
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/index
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 15:04:48 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:48 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:48 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 15:04:48 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:48 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:48 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:48 UTC] APP::method_exists->No existe un metodo
+[14-Jul-2022 15:04:48 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:48 UTC] APP::construct-> Url get 
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 15:04:48 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 15:04:48 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 15:04:48 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:48 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:48 UTC] Login::render-> carga de Login
+[14-Jul-2022 15:04:48 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 15:04:48 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:48 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:04:48 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:04:48 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:48 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:48 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:48 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:04:58 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:58 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 15:04:58 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 15:04:58 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 15:04:58 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 15:04:58 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\session.php on line 24
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. Session->getCurrentUser() C:\wamp64\www\Onix\clases\sessionController.php:92
+[14-Jul-2022 15:04:58 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 93
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 94
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 95
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 96
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 97
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 98
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 99
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 100
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\wamp64\www\Onix\models\usermodel.php on line 101
+[14-Jul-2022 15:04:58 UTC] PHP Stack trace:
+[14-Jul-2022 15:04:58 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 15:04:58 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 15:04:58 UTC] PHP   3. Paciente->__construct() C:\wamp64\www\Onix\libs\app.php:39
+[14-Jul-2022 15:04:58 UTC] PHP   4. SessionController->getUserSessionData() C:\wamp64\www\Onix\controllers\paciente.php:10
+[14-Jul-2022 15:04:58 UTC] PHP   5. UserModel->get($rut = NULL) C:\wamp64\www\Onix\clases\sessionController.php:95
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::getUserSessionData -> 
+[14-Jul-2022 15:04:58 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 15:04:58 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:04:58 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 15:04:58 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:58 UTC] APP::construct-> Url get 
+[14-Jul-2022 15:04:58 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 15:04:58 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 15:04:58 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 15:04:58 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:04:58 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:04:58 UTC] Login::render-> carga de Login
+[14-Jul-2022 15:04:58 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 15:04:59 UTC] Inicio de Aplicion
+[14-Jul-2022 15:04:59 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:04:59 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:04:59 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:04:59 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:04:59 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:04:59 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:04:59 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:05:01 UTC] Inicio de Aplicion
+[14-Jul-2022 15:05:01 UTC] APP::construct-> Url get signup
+[14-Jul-2022 15:05:01 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 15:05:01 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 15:05:01 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 15:05:01 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 15:05:01 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:05:01 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 15:05:01 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 15:05:01 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 15:05:01 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 15:05:01 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 15:05:01 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 15:05:02 UTC] Inicio de Aplicion
+[14-Jul-2022 15:05:02 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:05:02 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:05:02 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:05:02 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:05:02 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:05:02 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:05:02 UTC] Hubo un error en el segundo else
+[14-Jul-2022 15:05:38 UTC] Inicio de Aplicion
+[14-Jul-2022 15:05:38 UTC] APP::construct-> Url get signup/newUser
+[14-Jul-2022 15:05:38 UTC] APP::archivoController->url rtrim signup/newUser
+[14-Jul-2022 15:05:38 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 15:05:38 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 15:05:38 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup/newUser
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 15:05:38 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 15:05:38 UTC] APP::Isset($url[1])->isset signup
+[14-Jul-2022 15:05:38 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 15:05:38 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 15:05:38 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:05:38 UTC] Conexión a BD exitosa
+[14-Jul-2022 15:05:38 UTC] Controller::redirect-> header Location http://onix/?success=102
+[14-Jul-2022 15:05:38 UTC] Inicio de Aplicion
+[14-Jul-2022 15:05:38 UTC] APP::construct-> Url get 
+[14-Jul-2022 15:05:38 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 15:05:38 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?success=102
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?success=102
+[14-Jul-2022 15:05:38 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 15:05:38 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 15:05:38 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 15:05:38 UTC] Login::render-> carga de Login
+[14-Jul-2022 15:05:38 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 15:05:39 UTC] Inicio de Aplicion
+[14-Jul-2022 15:05:39 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 15:05:39 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 15:05:39 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 15:05:39 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 15:05:39 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 15:05:39 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 15:05:39 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:01 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:01 UTC] APP::construct-> Url get jnjfnb
+[14-Jul-2022 19:18:01 UTC] APP::archivoController->url rtrim jnjfnb
+[14-Jul-2022 19:18:01 UTC] APP::archivoController->Este es el archivoController controllers/jnjfnb.php
+[14-Jul-2022 19:18:01 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:01 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:01 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:01 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:01 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:01 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:18:01 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:18:01 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:18:01 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:01 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:01 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:01 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:07 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:07 UTC] APP::construct-> Url get 
+[14-Jul-2022 19:18:07 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 19:18:07 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 19:18:07 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:18:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 19:18:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 19:18:07 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 19:18:07 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:18:07 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:18:07 UTC] Login::render-> carga de Login
+[14-Jul-2022 19:18:07 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 19:18:07 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:07 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:18:07 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:18:07 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:18:07 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:07 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:07 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:07 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:23 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:23 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 19:18:23 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:18:23 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:18:23 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 19:18:23 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 19:18:23 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 19:18:23 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:18:23 UTC] LoginModel::login->success
+[14-Jul-2022 19:18:23 UTC] SessionController::initialize-> Comprobamos el user 
+[14-Jul-2022 19:18:23 UTC] SessionController::authorizeAccess-> Comprobamos el rol user
+[14-Jul-2022 19:18:23 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 172
+[14-Jul-2022 19:18:23 UTC] PHP Stack trace:
+[14-Jul-2022 19:18:23 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 19:18:23 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 19:18:23 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 19:18:23 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 19:18:23 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 19:18:23 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 19:18:23 UTC] SessionController::authorizeAccess-> Comprobamos el rol 
+[14-Jul-2022 19:18:23 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 173
+[14-Jul-2022 19:18:23 UTC] PHP Stack trace:
+[14-Jul-2022 19:18:23 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 19:18:23 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 19:18:23 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 19:18:23 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 19:18:23 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 19:18:23 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 19:18:23 UTC] Login::initialize-> devuelve user un objeto de tipo user 
+[14-Jul-2022 19:18:23 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:23 UTC] APP::construct-> Url get 
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 19:18:23 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:18:23 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 19:18:23 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:18:23 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:18:23 UTC] Login::render-> carga de Login
+[14-Jul-2022 19:18:23 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 19:18:23 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:23 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 19:18:23 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:18:23 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 19:18:23 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:18:23 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:18:23 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 19:18:23 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 19:18:23 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 19:18:24 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:24 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:18:24 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:18:24 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:18:24 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:24 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:24 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:24 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:26 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:18:26 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 19:18:26 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:18:26 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:18:26 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 19:18:26 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 19:18:26 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 19:18:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:26 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 19:18:26 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:26 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:26 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:26 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:26 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 19:18:26 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:26 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:26 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:26 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:18:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:18:26 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:18:26 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:18:26 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:18:26 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:18:26 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:18:26 UTC] Hubo un error en el segundo else
+/////////////////////////////////////////////////////////////////////////////[14-Jul-2022 19:41:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:26 UTC] APP::construct-> Url get logout
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->url rtrim logout
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController controllers/logout.php
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/logout.php
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] logout
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:26 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 19:41:26 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/logoutmodel.php
+[14-Jul-2022 19:41:26 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 19:41:26 UTC] Controller::redirect-> header Location http://onix/login/index
+[14-Jul-2022 19:41:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:26 UTC] APP::construct-> Url get login/index
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->url rtrim login/index
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/index
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 19:41:26 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:41:26 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:41:26 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 19:41:26 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:26 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:26 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:26 UTC] APP::method_exists->No existe un metodo
+[14-Jul-2022 19:41:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:26 UTC] APP::construct-> Url get 
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 19:41:26 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 19:41:26 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 19:41:26 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:41:26 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:41:26 UTC] Login::render-> carga de Login
+[14-Jul-2022 19:41:26 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 19:41:26 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:26 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:41:26 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:41:26 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:26 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:26 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:26 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:41:32 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:32 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 19:41:32 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:41:32 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:41:32 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 19:41:32 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 19:41:32 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 19:41:32 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:32 UTC] LoginModel::login-> password no es igual
+[14-Jul-2022 19:41:32 UTC] Controller::redirect-> header Location http://onix/?error=106
+[14-Jul-2022 19:41:32 UTC] Login::initialize-> no entran los datos 
+[14-Jul-2022 19:41:32 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:32 UTC] APP::construct-> Url get 
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 19:41:32 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?error=106
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?error=106
+[14-Jul-2022 19:41:32 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 19:41:32 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:41:32 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:41:32 UTC] Login::render-> carga de Login
+[14-Jul-2022 19:41:32 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 19:41:32 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:32 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:41:32 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:41:32 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:32 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:32 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:32 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:41:39 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:39 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 19:41:39 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:41:39 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:41:39 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 19:41:39 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 19:41:39 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 19:41:39 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:39 UTC] LoginModel::login->success
+[14-Jul-2022 19:41:39 UTC] SessionController::initialize-> Comprobamos el user 
+[14-Jul-2022 19:41:39 UTC] SessionController::authorizeAccess-> Comprobamos el rol user
+[14-Jul-2022 19:41:39 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 172
+[14-Jul-2022 19:41:39 UTC] PHP Stack trace:
+[14-Jul-2022 19:41:39 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 19:41:39 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 19:41:39 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 19:41:39 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 19:41:39 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 19:41:39 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 19:41:39 UTC] SessionController::authorizeAccess-> Comprobamos el rol 
+[14-Jul-2022 19:41:39 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 173
+[14-Jul-2022 19:41:39 UTC] PHP Stack trace:
+[14-Jul-2022 19:41:39 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 19:41:39 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 19:41:39 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 19:41:39 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' } }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 19:41:39 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 19:41:39 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 19:41:39 UTC] Login::initialize-> devuelve user un objeto de tipo user 
+[14-Jul-2022 19:41:39 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:39 UTC] APP::construct-> Url get 
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 19:41:39 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:39 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 19:41:39 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 19:41:39 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 19:41:39 UTC] Login::render-> carga de Login
+[14-Jul-2022 19:41:39 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 19:41:39 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:39 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:39 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 19:41:39 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:39 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:41:39 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 19:41:39 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 19:41:39 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 19:41:39 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:39 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:41:39 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:41:39 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:39 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:39 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:39 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:41:41 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:41 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:41:41 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 19:41:41 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:41 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:41:41 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 19:41:41 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 19:41:41 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:41:41 UTC] HistorialMedicoModel::Get->success
+[14-Jul-2022 19:41:41 UTC] PHP Notice:  Array to string conversion in C:\wamp64\www\Onix\controllers\historialMedico.php on line 16
+[14-Jul-2022 19:41:41 UTC] PHP Stack trace:
+[14-Jul-2022 19:41:41 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 19:41:41 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 19:41:41 UTC] PHP   3. HistorialMedico->render() C:\wamp64\www\Onix\libs\app.php:78
+[14-Jul-2022 19:41:41 UTC] HistorialMedico::render-> carga de DashboardArray
+[14-Jul-2022 19:41:41 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 19:41:41 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:41 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 19:41:41 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:41 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:41 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 19:41:41 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 19:41:41 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 19:41:41 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:41:41 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:41 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:41 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:41 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:41:41 UTC] Inicio de Aplicion
+[14-Jul-2022 19:41:41 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:41:41 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:41:41 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:41:41 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:41:41 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:41:41 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:42:58 UTC] Inicio de Aplicion
+[14-Jul-2022 19:42:58 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 19:42:58 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 19:42:58 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:42:58 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 19:42:58 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 19:42:58 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 19:42:58 UTC] Conexión a BD exitosa
+[14-Jul-2022 19:42:58 UTC] HistorialMedicoModel::Get->success
+[14-Jul-2022 19:42:58 UTC] HistorialMedico::render-> carga de Dashboard
+[14-Jul-2022 19:42:58 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 19:42:58 UTC] Inicio de Aplicion
+[14-Jul-2022 19:42:58 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 19:42:58 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:42:58 UTC] Inicio de Aplicion
+[14-Jul-2022 19:42:58 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:42:58 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 19:42:58 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 19:42:58 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 19:42:58 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:42:58 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:42:58 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:42:58 UTC] Hubo un error en el segundo else
+[14-Jul-2022 19:42:58 UTC] Inicio de Aplicion
+[14-Jul-2022 19:42:58 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 19:42:58 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 19:42:58 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 19:42:58 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 19:42:58 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 19:42:58 UTC] Hubo un error en el segundo else
+[14-Jul-2022 22:53:07 UTC] Inicio de Aplicion
+[14-Jul-2022 22:53:07 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 22:53:07 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 22:53:07 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 22:53:07 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 22:53:07 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 22:53:07 UTC] Conexión a BD exitosa
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 22:53:07 UTC] Conexión a BD exitosa
+[14-Jul-2022 22:53:07 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 22:53:07 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 22:53:07 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 22:53:07 UTC] Conexión a BD exitosa
+[14-Jul-2022 22:53:07 UTC] HistorialMedicoModel::Get->success
+[14-Jul-2022 22:53:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getDocNombre() on null in C:\wamp64\www\Onix\controllers\historialMedico.php:16
+Stack trace:
+#0 C:\wamp64\www\Onix\libs\app.php(78): HistorialMedico->render()
+#1 C:\wamp64\www\Onix\index.php(31): App->__construct()
+#2 {main}
+  thrown in C:\wamp64\www\Onix\controllers\historialMedico.php on line 16
+[14-Jul-2022 22:53:07 UTC] Inicio de Aplicion
+[14-Jul-2022 22:53:07 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 22:53:07 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 22:53:07 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 22:53:07 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 22:53:07 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 22:53:07 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 22:53:07 UTC] Hubo un error en el segundo else
+[14-Jul-2022 22:59:50 UTC] Inicio de Aplicion
+[14-Jul-2022 22:59:50 UTC] APP::construct-> Url get historialMedico
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->url rtrim historialMedico
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->Este es el archivoController controllers/historialMedico.php
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/historialMedico.php
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] historialMedico
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 22:59:50 UTC] Conexión a BD exitosa
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /historialMedico
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::getCurrentPage ->url historialMedico
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 22:59:50 UTC] Conexión a BD exitosa
+[14-Jul-2022 22:59:50 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 22:59:50 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/historialMedicomodel.php
+[14-Jul-2022 22:59:50 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 22:59:50 UTC] Conexión a BD exitosa
+[14-Jul-2022 22:59:50 UTC] HistorialMedicoModel::Get->success
+[14-Jul-2022 22:59:50 UTC] HistorialMedico::render-> carga de hm
+[14-Jul-2022 22:59:50 UTC] VIEW::render este es el renderizado de paciente/historialMedico
+[14-Jul-2022 22:59:50 UTC] Inicio de Aplicion
+[14-Jul-2022 22:59:50 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 22:59:50 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 22:59:50 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 22:59:50 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 22:59:50 UTC] Hubo un error en el segundo else
+[14-Jul-2022 22:59:50 UTC] Inicio de Aplicion
+[14-Jul-2022 22:59:50 UTC] APP::construct-> Url get js/animacion.js
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->url rtrim js/animacion.js
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->Este es el archivoController controllers/js.php
+[14-Jul-2022 22:59:50 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 22:59:50 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 22:59:50 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 22:59:50 UTC] Hubo un error en el segundo else
+[14-Jul-2022 22:59:50 UTC] Inicio de Aplicion
+[14-Jul-2022 22:59:50 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 22:59:50 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 22:59:50 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 22:59:50 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 22:59:50 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 22:59:50 UTC] Hubo un error en el segundo else

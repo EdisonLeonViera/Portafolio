@@ -1,0 +1,48 @@
+{
+    "sites": [{
+            "site": "",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "signup",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "paciente",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "historialMedico",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "recetas",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "reserva",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "examenes",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "reservar",
+            "access": "private",
+            "role": "user"
+        }
+    ],
+
+    "default-sites": [{
+        "user": "paciente",
+        "admin": "admin"
+    }]
+}

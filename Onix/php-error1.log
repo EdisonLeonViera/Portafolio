@@ -1,0 +1,1040 @@
+[14-Jul-2022 07:11:52 UTC] Inicio de Aplicion
+[14-Jul-2022 07:11:52 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:11:52 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:11:52 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:11:52 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:11:52 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:11:52 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:11:52 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:11:52 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:11:52 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:11:52 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:11:52 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:11:52 UTC] PHP Warning:  require(views/login/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:11:52 UTC] PHP Stack trace:
+[14-Jul-2022 07:11:52 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:11:52 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:11:52 UTC] PHP   3. Login->render() C:\wamp64\www\Onix\libs\app.php:27
+[14-Jul-2022 07:11:52 UTC] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\login.php:16
+[14-Jul-2022 07:11:52 UTC] PHP Fatal error:  require(): Failed opening required 'views/login/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:11:52 UTC] PHP Stack trace:
+[14-Jul-2022 07:11:52 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:11:52 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:11:52 UTC] PHP   3. Login->render() C:\wamp64\www\Onix\libs\app.php:27
+[14-Jul-2022 07:11:52 UTC] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\login.php:16
+[14-Jul-2022 07:11:52 UTC] Inicio de Aplicion
+[14-Jul-2022 07:11:52 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:11:52 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:11:52 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:11:52 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:11:52 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:11:52 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:11:52 UTC] PHP Stack trace:
+[14-Jul-2022 07:11:52 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:11:52 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:11:52 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:11:52 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:11:52 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:11:52 UTC] PHP Stack trace:
+[14-Jul-2022 07:11:52 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:11:52 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:11:52 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:11:52 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:12:40 UTC] Inicio de Aplicion
+[14-Jul-2022 07:12:40 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:12:40 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:12:40 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:12:40 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:12:40 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:12:40 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:12:40 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:12:40 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:12:40 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:12:40 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:12:40 UTC] Inicio de Aplicion
+[14-Jul-2022 07:12:40 UTC] APP::construct-> Url get img/logo.png
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->url rtrim img/logo.png
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 07:12:40 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:12:40 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:12:40 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:12:40 UTC] PHP Stack trace:
+[14-Jul-2022 07:12:40 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:12:40 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:12:40 UTC] Inicio de Aplicion
+[14-Jul-2022 07:12:40 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:12:40 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:12:40 UTC] APP::construct-> Url get img/signin.png
+[14-Jul-2022 07:12:40 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->url rtrim img/signin.png
+[14-Jul-2022 07:12:40 UTC] PHP Stack trace:
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 07:12:40 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:12:40 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:12:40 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:12:40 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:12:40 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:12:40 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:12:40 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:12:40 UTC] PHP Stack trace:
+[14-Jul-2022 07:12:40 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:12:40 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:12:40 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:12:40 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:12:40 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:12:40 UTC] PHP Stack trace:
+[14-Jul-2022 07:12:40 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:12:40 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:12:40 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:12:40 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:12:40 UTC] Inicio de Aplicion
+[14-Jul-2022 07:12:40 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:12:40 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:12:40 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:12:40 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:12:40 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:12:40 UTC] PHP Stack trace:
+[14-Jul-2022 07:12:40 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:12:40 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:12:40 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:12:40 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:12:40 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:12:40 UTC] PHP Stack trace:
+[14-Jul-2022 07:12:40 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:12:40 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:12:40 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:12:40 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:16 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:16 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:13:16 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:13:16 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:13:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:13:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:13:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:13:16 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:13:16 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:13:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:13:16 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:13:16 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:13:16 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:16 UTC] APP::construct-> Url get img/logo.png
+[14-Jul-2022 07:13:16 UTC] APP::archivoController->url rtrim img/logo.png
+[14-Jul-2022 07:13:16 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 07:13:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:13:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:13:16 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:16 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:16 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:16 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:16 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:16 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:16 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:16 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:16 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:16 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:16 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:16 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:16 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:16 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:13:16 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:13:16 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:13:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:13:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:13:16 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:16 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:16 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:16 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:16 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:16 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:16 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:16 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:16 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:16 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:16 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:16 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:26 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:26 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:13:26 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:13:26 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:13:26 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:13:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:13:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:13:26 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:13:26 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:13:26 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:13:26 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:13:26 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:13:27 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:27 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:13:27 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:13:27 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:13:27 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:13:27 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:13:27 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:27 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:27 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:27 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:27 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:27 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:27 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:27 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:27 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:27 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:27 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:27 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:34 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:34 UTC] APP::construct-> Url get cuentas.php
+[14-Jul-2022 07:13:34 UTC] APP::archivoController->url rtrim cuentas.php
+[14-Jul-2022 07:13:34 UTC] APP::archivoController->Este es el archivoController controllers/cuentas.php.php
+[14-Jul-2022 07:13:34 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:13:34 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:13:34 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:34 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:34 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:34 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:34 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:34 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:34 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:34 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:34 UTC] Inicio de Aplicion
+[14-Jul-2022 07:13:34 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:13:34 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:13:34 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:13:34 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:13:34 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:13:34 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:34 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:34 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:34 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:13:34 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:13:34 UTC] PHP Stack trace:
+[14-Jul-2022 07:13:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:13:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:13:34 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:13:34 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:14:12 UTC] Inicio de Aplicion
+[14-Jul-2022 07:14:12 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:14:12 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:14:12 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:14:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:14:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:14:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:14:12 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:14:12 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:14:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:14:12 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:14:12 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:14:12 UTC] Inicio de Aplicion
+[14-Jul-2022 07:14:12 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:14:12 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:14:12 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:14:12 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:14:12 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:14:12 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:14:12 UTC] PHP Stack trace:
+[14-Jul-2022 07:14:12 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:14:12 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:14:12 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:14:12 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:14:12 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:14:12 UTC] PHP Stack trace:
+[14-Jul-2022 07:14:12 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:14:12 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:14:12 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:14:12 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:14:53 UTC] Inicio de Aplicion
+[14-Jul-2022 07:14:53 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:14:53 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:14:53 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:14:53 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:14:53 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:14:53 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:14:53 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:14:53 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:14:53 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:14:53 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:14:53 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:14:53 UTC] Inicio de Aplicion
+[14-Jul-2022 07:14:53 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:14:53 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:14:53 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:14:53 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:14:53 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:14:53 UTC] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:14:53 UTC] PHP Stack trace:
+[14-Jul-2022 07:14:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:14:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:14:53 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:14:53 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:14:53 UTC] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\libs\view.php on line 15
+[14-Jul-2022 07:14:53 UTC] PHP Stack trace:
+[14-Jul-2022 07:14:53 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:14:53 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:14:53 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:14:53 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+/////////////////////////////////////////////////////////////////////////////////////////////
+[14-Jul-2022 07:16:24 UTC] Inicio de Aplicion
+[14-Jul-2022 07:16:24 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:16:24 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:16:24 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:16:24 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:16:24 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:16:24 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:16:24 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:16:24 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:16:24 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:16:24 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:16:24 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:16:25 UTC] Inicio de Aplicion
+[14-Jul-2022 07:16:25 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:16:25 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:16:25 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:16:25 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:16:25 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:16:25 UTC] PHP Warning:  require(views/header.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\views\errores\index.php on line 11
+[14-Jul-2022 07:16:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:16:25 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:16:25 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:16:25 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:16:25 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:16:25 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 07:16:25 UTC] PHP Fatal error:  require(): Failed opening required 'views/header.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\views\errores\index.php on line 11
+[14-Jul-2022 07:16:25 UTC] PHP Stack trace:
+[14-Jul-2022 07:16:25 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:16:25 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:16:25 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:16:25 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:16:25 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 07:16:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:16:31 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 07:16:31 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:16:31 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:16:31 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 07:16:31 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 07:16:31 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 07:16:31 UTC] Conexión a BD exitosa
+[14-Jul-2022 07:16:31 UTC] PHP Notice:  Undefined index: Nombre in C:\wamp64\www\Onix\models\usermodel.php on line 147
+[14-Jul-2022 07:16:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:16:31 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:16:31 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:16:31 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 07:16:31 UTC] PHP   4. LoginModel->login($rut = '12345678-9', $password = '1234') C:\wamp64\www\Onix\controllers\login.php:36
+[14-Jul-2022 07:16:31 UTC] PHP   5. UserModel->from($array = ['rut' => '12345678-9', 'nombre' => 'Juanito', 'apellidoP' => 'Perez', 'apellidoM' => 'Coloma', 'telefono' => '+56912345678', 'correo' => 'correo1@gmail.com', 'clave' => '1234', 'fechaNacimiento' => '2000-03-14', 'role' => 'user']) C:\wamp64\www\Onix\models\loginmodel.php:23
+[14-Jul-2022 07:16:31 UTC] PHP Notice:  Undefined index: ApellidoM in C:\wamp64\www\Onix\models\usermodel.php on line 149
+[14-Jul-2022 07:16:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:16:31 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:16:31 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:16:31 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 07:16:31 UTC] PHP   4. LoginModel->login($rut = '12345678-9', $password = '1234') C:\wamp64\www\Onix\controllers\login.php:36
+[14-Jul-2022 07:16:31 UTC] PHP   5. UserModel->from($array = ['rut' => '12345678-9', 'nombre' => 'Juanito', 'apellidoP' => 'Perez', 'apellidoM' => 'Coloma', 'telefono' => '+56912345678', 'correo' => 'correo1@gmail.com', 'clave' => '1234', 'fechaNacimiento' => '2000-03-14', 'role' => 'user']) C:\wamp64\www\Onix\models\loginmodel.php:23
+[14-Jul-2022 07:16:31 UTC] LoginModel::login-> password no es igual
+[14-Jul-2022 07:16:31 UTC] Controller::redirect-> header Location http://onix/?error=106
+[14-Jul-2022 07:16:31 UTC] Login::initialize-> no entran los datos 
+[14-Jul-2022 07:16:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:16:31 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:16:31 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?error=106
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?error=106
+[14-Jul-2022 07:16:31 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:16:31 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:16:31 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:16:31 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:16:31 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:16:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:16:31 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:16:31 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:16:31 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:16:31 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:16:31 UTC] PHP Warning:  require(views/header.php): failed to open stream: No such file or directory in C:\wamp64\www\Onix\views\errores\index.php on line 11
+[14-Jul-2022 07:16:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:16:31 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:16:31 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:16:31 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:16:31 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:16:31 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 07:16:31 UTC] PHP Fatal error:  require(): Failed opening required 'views/header.php' (include_path='.;C:\php\pear') in C:\wamp64\www\Onix\views\errores\index.php on line 11
+[14-Jul-2022 07:16:31 UTC] PHP Stack trace:
+[14-Jul-2022 07:16:31 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 07:16:31 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 07:16:31 UTC] PHP   3. Errores->__construct() C:\wamp64\www\Onix\libs\app.php:82
+[14-Jul-2022 07:16:31 UTC] PHP   4. View->render($nombre = 'errores/index', $data = *uninitialized*) C:\wamp64\www\Onix\controllers\errores.php:7
+[14-Jul-2022 07:16:31 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 07:25:26 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:26 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:25:26 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:25:26 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:25:26 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:25:26 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?error=106
+[14-Jul-2022 07:25:26 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?error=106
+[14-Jul-2022 07:25:26 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:25:26 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:25:26 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:25:26 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:25:26 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:25:26 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:26 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:25:26 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:25:26 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:25:26 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:25:26 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:25:26 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:25:26 UTC] Hubo un error en el segundo else
+[14-Jul-2022 07:25:28 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:28 UTC] APP::construct-> Url get signup
+[14-Jul-2022 07:25:28 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 07:25:28 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:25:28 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:25:28 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:25:28 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:25:28 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 07:25:28 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 07:25:28 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:25:28 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:25:28 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 07:25:28 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 07:25:28 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:28 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:25:28 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:25:28 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:25:28 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:25:28 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:25:28 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:25:28 UTC] Hubo un error en el segundo else
+[14-Jul-2022 07:25:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:31 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:25:31 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:25:31 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:25:31 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:25:31 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:25:31 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:25:31 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:25:31 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:25:31 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:25:31 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:25:31 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:25:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:31 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:25:31 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:25:31 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:25:31 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:25:31 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:25:31 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:25:31 UTC] Hubo un error en el segundo else
+[14-Jul-2022 07:25:32 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:32 UTC] APP::construct-> Url get signup
+[14-Jul-2022 07:25:32 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 07:25:32 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:25:32 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:25:32 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:25:32 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:25:32 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 07:25:32 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 07:25:32 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:25:32 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:25:32 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 07:25:32 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 07:25:32 UTC] Inicio de Aplicion
+[14-Jul-2022 07:25:32 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:25:32 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:25:32 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:25:32 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:25:32 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:25:32 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:25:32 UTC] Hubo un error en el segundo else
+////////////////////////////////////////////////////////////////
+[14-Jul-2022 07:37:10 UTC] Inicio de Aplicion
+[14-Jul-2022 07:37:10 UTC] APP::construct-> Url get 
+[14-Jul-2022 07:37:10 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 07:37:10 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 07:37:10 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:37:10 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 07:37:10 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 07:37:10 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:37:10 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 07:37:10 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 07:37:10 UTC] Login::render-> carga de Login
+[14-Jul-2022 07:37:10 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 07:37:10 UTC] Inicio de Aplicion
+[14-Jul-2022 07:37:10 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:37:10 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:37:10 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:37:10 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:37:10 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:37:10 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:37:10 UTC] Hubo un error en el segundo else
+[14-Jul-2022 07:37:11 UTC] Inicio de Aplicion
+[14-Jul-2022 07:37:11 UTC] APP::construct-> Url get signup
+[14-Jul-2022 07:37:11 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 07:37:11 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:37:11 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:37:11 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:37:11 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:37:11 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 07:37:11 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 07:37:11 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:37:11 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:37:11 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 07:37:11 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 07:37:11 UTC] Inicio de Aplicion
+[14-Jul-2022 07:37:11 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:37:11 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:37:11 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:37:11 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:37:11 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:37:11 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:37:11 UTC] Hubo un error en el segundo else
+[14-Jul-2022 07:38:12 UTC] Inicio de Aplicion
+[14-Jul-2022 07:38:12 UTC] APP::construct-> Url get signup/newUser
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->url rtrim signup/newUser
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup/newUser
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:38:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:38:12 UTC] APP::Isset($url[1])->isset signup
+[14-Jul-2022 07:38:12 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 07:38:12 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 07:38:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 07:38:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 07:38:12 UTC] USERMODEL::save->PDOException PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'clave' at row 1 in C:\wamp64\www\Onix\models\usermodel.php:44
+Stack trace:
+#0 C:\wamp64\www\Onix\models\usermodel.php(44): PDOStatement->execute(Array)
+#1 C:\wamp64\www\Onix\controllers\signup.php(41): UserModel->save()
+#2 C:\wamp64\www\Onix\libs\app.php(68): Signup->newUser()
+#3 C:\wamp64\www\Onix\index.php(31): App->__construct()
+#4 {main}
+[14-Jul-2022 07:38:12 UTC] Controller::redirect-> header Location http://onix/signup?error=102
+[14-Jul-2022 07:38:12 UTC] Inicio de Aplicion
+[14-Jul-2022 07:38:12 UTC] APP::construct-> Url get signup
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup?error=102
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup?error=102
+[14-Jul-2022 07:38:12 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:38:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:38:12 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 07:38:12 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 07:38:12 UTC] Inicio de Aplicion
+[14-Jul-2022 07:38:12 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:38:12 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:38:12 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:38:12 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:38:12 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:38:12 UTC] Hubo un error en el segundo else
+[14-Jul-2022 07:43:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:43:31 UTC] APP::construct-> Url get signup/newUser
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->url rtrim signup/newUser
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup/newUser
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:43:31 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:43:31 UTC] APP::Isset($url[1])->isset signup
+[14-Jul-2022 07:43:31 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 07:43:31 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 07:43:31 UTC] Conexión a BD exitosa
+[14-Jul-2022 07:43:31 UTC] Conexión a BD exitosa
+[14-Jul-2022 07:43:31 UTC] USERMODEL::save->PDOException PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'clave' at row 1 in C:\wamp64\www\Onix\models\usermodel.php:44
+Stack trace:
+#0 C:\wamp64\www\Onix\models\usermodel.php(44): PDOStatement->execute(Array)
+#1 C:\wamp64\www\Onix\controllers\signup.php(41): UserModel->save()
+#2 C:\wamp64\www\Onix\libs\app.php(68): Signup->newUser()
+#3 C:\wamp64\www\Onix\index.php(31): App->__construct()
+#4 {main}
+[14-Jul-2022 07:43:31 UTC] Controller::redirect-> header Location http://onix/signup?error=102
+[14-Jul-2022 07:43:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:43:31 UTC] APP::construct-> Url get signup
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup?error=102
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup?error=102
+[14-Jul-2022 07:43:31 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 07:43:31 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 07:43:31 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 07:43:31 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 07:43:31 UTC] Inicio de Aplicion
+[14-Jul-2022 07:43:31 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 07:43:31 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 07:43:31 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 07:43:31 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 07:43:31 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 07:43:31 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:42:03 UTC] Inicio de Aplicion
+[14-Jul-2022 09:42:03 UTC] APP::construct-> Url get signup/newUser
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->url rtrim signup/newUser
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup/newUser
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 09:42:03 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 09:42:03 UTC] APP::Isset($url[1])->isset signup
+[14-Jul-2022 09:42:03 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 09:42:03 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 09:42:03 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:42:03 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:42:03 UTC] Controller::redirect-> header Location http://onix/?success=102
+[14-Jul-2022 09:42:03 UTC] Inicio de Aplicion
+[14-Jul-2022 09:42:03 UTC] APP::construct-> Url get 
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 09:42:03 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?success=102
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?success=102
+[14-Jul-2022 09:42:03 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 09:42:03 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 09:42:03 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 09:42:03 UTC] Login::render-> carga de Login
+[14-Jul-2022 09:42:03 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 09:42:03 UTC] Inicio de Aplicion
+[14-Jul-2022 09:42:03 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 09:42:03 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 09:42:03 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:42:03 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:42:03 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:42:03 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:45:16 UTC] Inicio de Aplicion
+[14-Jul-2022 09:45:16 UTC] APP::construct-> Url get signup
+[14-Jul-2022 09:45:16 UTC] APP::archivoController->url rtrim signup
+[14-Jul-2022 09:45:16 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 09:45:16 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 09:45:16 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 09:45:16 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:45:16 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup
+[14-Jul-2022 09:45:16 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 09:45:16 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 09:45:16 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 09:45:16 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 09:45:16 UTC] VIEW::render este es el renderizado de login/signup
+[14-Jul-2022 09:45:16 UTC] Inicio de Aplicion
+[14-Jul-2022 09:45:16 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 09:45:16 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 09:45:16 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 09:45:16 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:45:16 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:45:16 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:45:16 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:03 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:03 UTC] APP::construct-> Url get signup/newUser
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->url rtrim signup/newUser
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->Este es el archivoController controllers/signup.php
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/signup.php
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] signup
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /signup/newUser
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::getCurrentPage ->url signup
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 09:46:03 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/signupmodel.php
+[14-Jul-2022 09:46:03 UTC] APP::Isset($url[1])->isset signup
+[14-Jul-2022 09:46:03 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 09:46:03 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 09:46:03 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:03 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:03 UTC] Controller::redirect-> header Location http://onix/?success=102
+[14-Jul-2022 09:46:03 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:03 UTC] APP::construct-> Url get 
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 09:46:03 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /?success=102
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::getCurrentPage ->url ?success=102
+[14-Jul-2022 09:46:03 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 09:46:03 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 09:46:03 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 09:46:03 UTC] Login::render-> carga de Login
+[14-Jul-2022 09:46:03 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 09:46:03 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:03 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 09:46:03 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 09:46:03 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:03 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:03 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:03 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:33 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:33 UTC] APP::construct-> Url get login/authenticate
+[14-Jul-2022 09:46:33 UTC] APP::archivoController->url rtrim login/authenticate
+[14-Jul-2022 09:46:33 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 09:46:33 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 09:46:33 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 09:46:33 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:33 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/authenticate
+[14-Jul-2022 09:46:33 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 09:46:33 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 09:46:33 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 09:46:33 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 09:46:33 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 09:46:33 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 09:46:33 UTC] APP::method_exists->El metodo si existe 
+[14-Jul-2022 09:46:33 UTC] Controller::existsPost-> Existe parametro
+[14-Jul-2022 09:46:33 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:33 UTC] PHP Notice:  Undefined index: Nombre in C:\wamp64\www\Onix\models\usermodel.php on line 147
+[14-Jul-2022 09:46:33 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:33 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:33 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:33 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 09:46:33 UTC] PHP   4. LoginModel->login($rut = '12345678-3', $password = '1234') C:\wamp64\www\Onix\controllers\login.php:36
+[14-Jul-2022 09:46:33 UTC] PHP   5. UserModel->from($array = ['rut' => '12345678-3', 'nombre' => 'Coloso', 'apellidoP' => 'Santander', 'apellidoM' => 'Premier', 'telefono' => '+56912345678', 'correo' => 'correo4@gmail.com', 'clave' => '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke', 'fechaNacimiento' => '2022-07-23', 'role' => 'user']) C:\wamp64\www\Onix\models\loginmodel.php:23
+[14-Jul-2022 09:46:33 UTC] PHP Notice:  Undefined index: ApellidoM in C:\wamp64\www\Onix\models\usermodel.php on line 149
+[14-Jul-2022 09:46:33 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:33 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:33 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:33 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 09:46:33 UTC] PHP   4. LoginModel->login($rut = '12345678-3', $password = '1234') C:\wamp64\www\Onix\controllers\login.php:36
+[14-Jul-2022 09:46:33 UTC] PHP   5. UserModel->from($array = ['rut' => '12345678-3', 'nombre' => 'Coloso', 'apellidoP' => 'Santander', 'apellidoM' => 'Premier', 'telefono' => '+56912345678', 'correo' => 'correo4@gmail.com', 'clave' => '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke', 'fechaNacimiento' => '2022-07-23', 'role' => 'user']) C:\wamp64\www\Onix\models\loginmodel.php:23
+[14-Jul-2022 09:46:34 UTC] LoginModel::login->success
+[14-Jul-2022 09:46:34 UTC] SessionController::initialize-> Comprobamos el user 
+[14-Jul-2022 09:46:34 UTC] SessionController::authorizeAccess-> Comprobamos el rol user
+[14-Jul-2022 09:46:34 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 172
+[14-Jul-2022 09:46:34 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:34 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 09:46:34 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = ''; private $apellidoP = 'Santander'; private $apellidoM = ''; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' }; public $Nombre = NULL; public $ApellidoM = NULL }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 09:46:34 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 09:46:34 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 09:46:34 UTC] SessionController::authorizeAccess-> Comprobamos el rol 
+[14-Jul-2022 09:46:34 UTC] PHP Notice:  Undefined index: user in C:\wamp64\www\Onix\clases\sessionController.php on line 173
+[14-Jul-2022 09:46:34 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:34 UTC] PHP   3. Login->authenticate() C:\wamp64\www\Onix\libs\app.php:68
+[14-Jul-2022 09:46:34 UTC] PHP   4. SessionController->initialize($user = class UserModel { private $rut = '12345678-3'; private $nombre = ''; private $apellidoP = 'Santander'; private $apellidoM = ''; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$MxRfjO1G.dDY1e8pzf15Jub.3tXH8BkzImN4ab0evYLfItIaXEXke'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { private $host = 'localhost'; private $db = 'onixbd'; private $user = 'root'; private $password = ''; private $charset = 'utf8mb4' }; public $Nombre = NULL; public $ApellidoM = NULL }) C:\wamp64\www\Onix\controllers\login.php:39
+[14-Jul-2022 09:46:34 UTC] PHP   5. SessionController->authorizeAccess($role = 'user') C:\wamp64\www\Onix\clases\sessionController.php:164
+[14-Jul-2022 09:46:34 UTC] Controller::redirect-> header Location http://onix/
+[14-Jul-2022 09:46:34 UTC] Login::initialize-> devuelve user un objeto de tipo user 
+[14-Jul-2022 09:46:34 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:34 UTC] APP::construct-> Url get 
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 09:46:34 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:34 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::validateSession -> redirigimos por rol
+[14-Jul-2022 09:46:34 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 09:46:34 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 09:46:34 UTC] Login::render-> carga de Login
+[14-Jul-2022 09:46:34 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 09:46:34 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:34 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:34 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 09:46:34 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:34 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 09:46:34 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 09:46:34 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 09:46:34 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 09:46:34 UTC] PHP Notice:  Undefined property: UserModel::$getNombre in C:\wamp64\www\Onix\views\paciente\index.php on line 59
+[14-Jul-2022 09:46:34 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:34 UTC] PHP   3. Paciente->render() C:\wamp64\www\Onix\libs\app.php:78
+[14-Jul-2022 09:46:34 UTC] PHP   4. View->render($nombre = 'paciente/index', $data = ['user' => class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$zk5Vy4BrikSWyveAqH0rbe3cHU02rTgNGEmBzSzTmokQCoXSoJIBa'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { ... } }]) C:\wamp64\www\Onix\controllers\paciente.php:15
+[14-Jul-2022 09:46:34 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 09:46:34 UTC] PHP Notice:  Undefined property: UserModel::$getapellidoP in C:\wamp64\www\Onix\views\paciente\index.php on line 59
+[14-Jul-2022 09:46:34 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:34 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:34 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:34 UTC] PHP   3. Paciente->render() C:\wamp64\www\Onix\libs\app.php:78
+[14-Jul-2022 09:46:34 UTC] PHP   4. View->render($nombre = 'paciente/index', $data = ['user' => class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$zk5Vy4BrikSWyveAqH0rbe3cHU02rTgNGEmBzSzTmokQCoXSoJIBa'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { ... } }]) C:\wamp64\www\Onix\controllers\paciente.php:15
+[14-Jul-2022 09:46:34 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 09:46:34 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:34 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 09:46:34 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:34 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:34 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:34 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:34 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:34 UTC] APP::construct-> Url get img/logo.png
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->url rtrim img/logo.png
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 09:46:34 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:34 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:34 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:34 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:34 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:34 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 09:46:34 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 09:46:34 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:34 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:34 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:34 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:44 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:44 UTC] APP::construct-> Url get login
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->url rtrim login
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:44 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 09:46:44 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 09:46:44 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 09:46:44 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 09:46:44 UTC] Login::render-> carga de Login
+[14-Jul-2022 09:46:44 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 09:46:44 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:44 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 09:46:44 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 09:46:44 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 09:46:44 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 09:46:44 UTC] Conexión a BD exitosa
+[14-Jul-2022 09:46:45 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 09:46:45 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 09:46:45 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 09:46:45 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 09:46:45 UTC] PHP Notice:  Undefined property: UserModel::$getNombre in C:\wamp64\www\Onix\views\paciente\index.php on line 59
+[14-Jul-2022 09:46:45 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:45 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:45 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:45 UTC] PHP   3. Paciente->render() C:\wamp64\www\Onix\libs\app.php:78
+[14-Jul-2022 09:46:45 UTC] PHP   4. View->render($nombre = 'paciente/index', $data = ['user' => class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$C.hNj.5gTb4N/.gz5wJFC.Tq5zjuLgjCGO.DxbjZxMlW8tvCgkZli'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { ... } }]) C:\wamp64\www\Onix\controllers\paciente.php:15
+[14-Jul-2022 09:46:45 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 09:46:45 UTC] PHP Notice:  Undefined property: UserModel::$getapellidoP in C:\wamp64\www\Onix\views\paciente\index.php on line 59
+[14-Jul-2022 09:46:45 UTC] PHP Stack trace:
+[14-Jul-2022 09:46:45 UTC] PHP   1. {main}() C:\wamp64\www\Onix\index.php:0
+[14-Jul-2022 09:46:45 UTC] PHP   2. App->__construct() C:\wamp64\www\Onix\index.php:31
+[14-Jul-2022 09:46:45 UTC] PHP   3. Paciente->render() C:\wamp64\www\Onix\libs\app.php:78
+[14-Jul-2022 09:46:45 UTC] PHP   4. View->render($nombre = 'paciente/index', $data = ['user' => class UserModel { private $rut = '12345678-3'; private $nombre = 'Coloso'; private $apellidoP = 'Santander'; private $apellidoM = 'Premier'; private $telefono = '+56912345678'; private $correo = 'correo4@gmail.com'; private $clave = '$2y$10$C.hNj.5gTb4N/.gz5wJFC.Tq5zjuLgjCGO.DxbjZxMlW8tvCgkZli'; private $fechaNacimiento = '2022-07-23'; private $role = 'user'; public $db = class Database { ... } }]) C:\wamp64\www\Onix\controllers\paciente.php:15
+[14-Jul-2022 09:46:45 UTC] PHP   5. require() C:\wamp64\www\Onix\libs\view.php:15
+[14-Jul-2022 09:46:45 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:45 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 09:46:45 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 09:46:45 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 09:46:45 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:45 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:45 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:45 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:45 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:45 UTC] APP::construct-> Url get img/logo.png
+[14-Jul-2022 09:46:45 UTC] APP::archivoController->url rtrim img/logo.png
+[14-Jul-2022 09:46:45 UTC] APP::archivoController->Este es el archivoController controllers/img.php
+[14-Jul-2022 09:46:45 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:45 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:45 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:45 UTC] Hubo un error en el segundo else
+[14-Jul-2022 09:46:45 UTC] Inicio de Aplicion
+[14-Jul-2022 09:46:45 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 09:46:45 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 09:46:45 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 09:46:45 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 09:46:45 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 09:46:45 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 09:46:45 UTC] Hubo un error en el segundo else
+[14-Jul-2022 10:37:12 UTC] Inicio de Aplicion
+[14-Jul-2022 10:37:12 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 10:37:12 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 10:37:12 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 10:37:12 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 10:37:12 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 10:37:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 10:37:12 UTC] Conexión a BD exitosa
+[14-Jul-2022 10:37:12 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 10:37:12 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 10:37:12 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 10:37:12 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 10:37:12 UTC] Inicio de Aplicion
+[14-Jul-2022 10:37:12 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 10:37:12 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 10:37:12 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 10:37:12 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 10:37:12 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 10:37:12 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 10:37:12 UTC] Hubo un error en el segundo else
+[14-Jul-2022 10:37:13 UTC] Inicio de Aplicion
+[14-Jul-2022 10:37:13 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 10:37:13 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 10:37:13 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 10:37:13 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 10:37:13 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 10:37:13 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 10:37:13 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:03:05 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:05 UTC] APP::construct-> Url get paciente
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->url rtrim paciente
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->Este es el archivoController controllers/paciente.php
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/paciente.php
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] paciente
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:03:05 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /paciente
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::getCurrentPage ->url paciente
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::isAuthorized ->Retornamos true user
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::validateSession -> Esta autorizado a entrar
+[14-Jul-2022 11:03:05 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:03:05 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:03:05 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/pacientemodel.php
+[14-Jul-2022 11:03:05 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:03:05 UTC] VIEW::render este es el renderizado de paciente/index
+[14-Jul-2022 11:03:05 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:05 UTC] APP::construct-> Url get css/cuentas.css
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->url rtrim css/cuentas.css
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->Este es el archivoController controllers/css.php
+[14-Jul-2022 11:03:05 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:03:05 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:03:05 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:03:05 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:03:05 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:05 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:03:05 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:03:05 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:03:05 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:03:05 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:03:05 UTC] Hubo un error en el segundo else
+[14-Jul-2022 11:03:07 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:07 UTC] APP::construct-> Url get logout
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->url rtrim logout
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController controllers/logout.php
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/logout.php
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] logout
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:03:07 UTC] Conexión a BD exitosa
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getUserSessionData -> 12345678-3
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession -> si existe y tomamos el rol: user
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::isAuthorized -> user
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /logout
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url logout
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> user
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole -> /paciente
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::redirectDefaultSiteByRole ->Location :http://onix/paciente
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession ->No esta autorizado a entrar
+[14-Jul-2022 11:03:07 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/logoutmodel.php
+[14-Jul-2022 11:03:07 UTC] APP::Isset($url[1])->isset No hay url[1]
+[14-Jul-2022 11:03:07 UTC] Controller::redirect-> header Location http://onix/login/index
+[14-Jul-2022 11:03:07 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:07 UTC] APP::construct-> Url get login/index
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->url rtrim login/index
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController controllers/login.php
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController(F.E) controllers/login.php
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController(F.E) url[0] login
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /login/index
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url login
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession ->Redirecciona al index de la pagina Location: http://onix
+[14-Jul-2022 11:03:07 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:03:07 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:03:07 UTC] APP::Isset($url[1])->isset login
+[14-Jul-2022 11:03:07 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:03:07 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:03:07 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:03:07 UTC] APP::method_exists->No existe un metodo
+[14-Jul-2022 11:03:07 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:07 UTC] APP::construct-> Url get 
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->url rtrim 
+[14-Jul-2022 11:03:07 UTC] APP::construct-> Url vacia 
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->actualLink /
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::getCurrentPage ->url 
+[14-Jul-2022 11:03:07 UTC] SESSIONCONTROLLER::validateSession ->Si la pagina es publica lo dejamos entrar
+[14-Jul-2022 11:03:07 UTC] Login::construct-> inicio de Login
+[14-Jul-2022 11:03:07 UTC] CONTROLLER::loadModel->Este es la carga del modelo url models/loginmodel.php
+[14-Jul-2022 11:03:07 UTC] Login::render-> carga de Login
+[14-Jul-2022 11:03:07 UTC] VIEW::render este es el renderizado de login/index
+[14-Jul-2022 11:03:07 UTC] Inicio de Aplicion
+[14-Jul-2022 11:03:07 UTC] APP::construct-> Url get favicon.ico
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->url rtrim favicon.ico
+[14-Jul-2022 11:03:07 UTC] APP::archivoController->Este es el archivoController controllers/favicon.ico.php
+[14-Jul-2022 11:03:07 UTC] Errores::construct-> inicio de Errores
+[14-Jul-2022 11:03:07 UTC] VIEW::render este es el renderizado de errores/index
+[14-Jul-2022 11:03:07 UTC] Errores::render-> carga de Errores
+[14-Jul-2022 11:03:07 UTC] Hubo un error en el segundo else
