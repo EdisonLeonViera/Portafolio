@@ -1,0 +1,239 @@
+/*---------Main------*/
+.contenedor{
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/*-----Flechas------*/
+.volverArriba{
+    position: fixed;
+    bottom: 7px;
+    left: 10px;
+    z-index: 10;
+    width: 51.2px;
+    height: 51.2px;
+}
+
+.imgFlechaArriba {
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    z-index: 10;
+}
+
+/*---------header-----*/
+.bienvenida{
+    text-align: center;
+    color: white;
+    padding-top: 52px;
+}
+/*------Article Presentar Reclamo------*/
+.presentarReclamo{
+    display: flex;
+    text-align: center;
+    padding:0 5%;
+}
+
+.contenedorReclamo{
+    display: inline-block;
+    text-align: center;
+    width: 29.3%;
+	margin: 60px auto;
+	border: 0.5px solid;
+	border-radius: 10px;
+	border-color: white;
+	color: white;
+    background-color:rgba(65, 180, 230,0.6);
+}
+
+.imgContendorReclamo{
+    height: 168px;
+	width: 200px;
+    padding: 24px;
+}
+
+.textoExplicativo{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.textoExplicativo h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.textoExplicativo p{
+    text-align: center;
+}
+
+.contenedorBtns{
+   margin:0 0 20px;
+}
+
+.botonesPreRes, .preguntaFrecuentesMas {
+    display: block;
+	text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #103f7d;
+    border-radius: 6px;
+    margin: 4px auto;
+    cursor: pointer;
+    max-width: 60%;
+}
+
+.preguntaFrecuentesMas{
+    width: 10%;
+}
+/*Efecto Botones Index*/
+.botonesPreRes:hover , .preguntaFrecuentesMas:hover, .btnIngreso:hover{
+    color: #0087C9;
+    background-color: #ffffff;
+    transition: 0.4s all ease;
+}
+
+/*----------------Article Como Funciona------------*/
+.comoFunciona{
+    margin-top: 60px;
+    padding: 60px 0;
+    text-align: center;
+    width: calc(100% - 5%);
+    padding-left:5%;
+	border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    background-color:rgba(155,155,155,0.3);
+    color: white;
+}
+
+.contenedorRF{
+    display: inline-block;
+    width: 45%;
+    padding:0 25px;
+}
+
+.textoExplicativoRF ul li{
+    padding: 15px 0;
+}
+/*---------Article ARM--------*/
+.claseARM{
+    display: flex;
+    padding: 60px 0;
+    padding-left: 5%;
+}
+
+.contenedorARM{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.textoARM{
+    width: 300px;
+}
+
+.imagARM{
+    height: 168px;
+    width: 200px;
+    padding: 24px;
+}
+
+/*--------------Article PregunFrecuen------*/
+.preguntasFrecuentes{
+    margin-top: 60px;
+    padding: 60px 5%;
+    text-align: center;
+    width: calc(100% - 10%);
+	border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    background-color:rgba(155,155,155,0.3);
+    color: white;
+}
+
+.textoPF{
+    margin-bottom: 25px;
+}
+
+.desplegablePF summary{
+    margin: 10px auto;
+    color: white;
+    text-align: left;
+    padding: 6px;
+    background-color:rgba(155,155,155,0.3);
+    border-radius: 4px 4px 4px 4px;
+    border-color: white;
+    border: solid;
+    width: 70%;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.desplegablePF summary h3{
+    display: inline;
+}
+
+.desplegablePF[open] summary{
+    margin: 25px auto;
+	border-bottom: hidden;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: 0;
+}
+
+.respuesta{
+   	background-color:rgb(155,155,155,0.3);
+	padding: 6px;
+    border-radius: 0px 0px 4px 4px;
+    text-align: left;
+	width: 100%;
+	border-color: #FFFFFF;
+	border: solid;
+	border-top: hidden;
+    margin: 0px auto 6px;
+    width: 70%;
+}
+
+/*----------Article Tarifas-----*/
+.tarifas{
+    display: flex;
+    padding: 40px 5% 60px;
+}
+
+.tituloTarifas{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+.contenedorTarifas{
+    width: auto;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.tituloPlanes{
+    border-bottom: white;
+    border-style: solid;
+}
+
+.textoTarifas{
+    text-align: left;
+}
+
+.imagContenedorTarifas{
+    height: 168px;
+    width: 200px;
+    padding: 24px;
+}
+
+/*------Articles Fin--*/
+
+/*-----------Main Fin----------*/

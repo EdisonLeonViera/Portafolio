@@ -1,0 +1,145 @@
+/*-------Inicializacion-------------*/
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+summary::marker{
+    overflow: visible;
+}
+/*----------------Fin--------------*/
+
+/* -----scroll personalizado------*/
+/*firefox*/
+:root{
+	scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
+    scrollbar-width: thin !important;
+    scroll-padding-top: 52px;
+	border-radius: 10px;
+}
+
+/*chrome*/
+body::-webkit-scrollbar {
+    width: 7px;
+    height: 15px;
+}
+
+body::-webkit-scrollbar-track-piece  {
+    background-color: rgb(46,54,69);
+}
+
+body::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+	background-color: rgb(210,210,210);
+	border-radius: 20px;
+}
+
+/*scroll smooth*/
+html{
+	scroll-behavior: smooth;
+}
+
+/*-----------Fin----------------*/
+/*-------------Nav Bar-------------*/
+.navLaudum{
+    display: inline-block;
+    position: sticky;
+    background-color: white;
+    height: 7%;
+    border-bottom: double;
+    border-color: #aac5e5;
+    border-bottom-width: 9.6px;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+
+.laudum{
+    display: inline-block;
+    width: 17%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #151E3D;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.navLista{
+    position: relative;
+    display: inline-block;
+    width: 76%;
+    text-align: right;
+    font-size: 20px;    
+    margin: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.navLista ul li{
+    display: inline;   
+}
+
+.navListaA{
+    display: inline-block;
+    color: #88959e;
+    margin: 0  5px;
+}
+
+.ingresar{
+    display: inline-block;
+    color: #0087C9;
+    margin: 0 5px;
+}
+
+.navListaA:hover, .ingresar:hover ,.laudum:hover {
+    transition: 0.1s all ease;
+	transform:scale(1.1);
+}
+/*---------------------Fin-------------------*/
+/*-----------Footer------------*/
+.contacto{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    border-top: solid white;
+    z-index: 20;
+    padding: 15px 0 10px;
+    bottom: 0;
+}
+
+.contactoTitulo{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.contactoTexto{
+    position: relative;
+    color: #88959e;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.volverArribaFooter{
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    z-index: 10;
+    width: 51.2px;
+    height: 51.2px;
+}
+
+.volverArribaFlechaFooter{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    z-index: 10;
+}
+/*---------Footer Fin----------*/

@@ -1,0 +1,172 @@
+/*--------------Main---------*/
+.contenedorIngreso{
+    background-image: url("../imagenes/fondoIzqDerc.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/*------Contenedor Login-----*/
+.login{
+    display: flex;
+    text-align: center;
+    padding:44.5px 5%;
+}
+
+.contenedorLogin{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 29.3%;
+	border: 0.5px solid;
+	border-radius: 10px;
+	border-color: white;
+	color: white;
+    background-color:rgba(65, 180, 230,0.6);
+}
+
+.imgContendorlogin{
+    height: 168px;
+	width: 200px;
+    padding: 24px;
+    padding-bottom: 0;
+}
+
+.textoLogin{
+    text-align: center;
+    padding: 10px;
+}
+
+.textoLogin p{
+    margin-bottom: 5px;
+}
+
+.inputLogin{
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 6px;
+    width: 60%;
+}
+
+.inputLogin:focus{
+    text-align: left;
+}
+
+.inputLoginFijar{
+    text-align: left;
+}
+
+.contenedorBtnsLogin{
+   margin:0 0 20px;
+}
+
+.botonesLoginL, .botonesLoginR {
+    display: inline-block;
+	text-decoration: none;
+    padding: 5px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #103f7d;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.botonesLoginL:hover ,.botonesLoginR:hover ,.btnElegirUsuario:hover{
+    color: #0087C9;
+    background-color: #ffffff;
+    transition: 0.4s all ease;
+}
+
+.botonesLoginL{
+    border-radius: 4px 0 0 4px;
+}
+
+.botonesLoginR{
+    border-radius: 0 4px 4px 0;
+}
+/*-----Fin login-----*/
+
+/*-----Caja Login----*/
+.displayLogin{
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:rgba(65, 180, 230,0.6);
+    border-color: white;
+    color: white;
+}
+/*---Fin caja------*/
+
+/*---Pestaña Inicial---*/
+.loginDiv h2{
+    text-align: center;
+    margin: 10px 10px 10px 0;
+}
+
+.loginDiv p{
+    text-align: left;
+    margin: 30px 10px;
+}
+ /*----Primera Pestaña----*/
+.primeraPestañaLogin{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btnElegirUsuario{
+    display: block;
+    background-color: #103f7d;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 33.33%;
+    color: white;
+    cursor: pointer;
+}
+
+.btnUp{
+    border-radius: 10px 10px 0 0;
+}
+
+.btnDown{
+    border-radius: 0 0 10px 10px;
+}
+
+/*----Segunda Pestaña------*/
+.formUserCreate{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.divFormUser{
+    display:block;
+    text-align: left;
+    margin: 10px;
+}
+
+.labelLogin{
+    display: inline-block;
+    width: 156px;
+    text-align: right;
+}
+
+.inputLoginForm{
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
+    border-radius: 6px;
+    width: 60%;
+}
+
+.inputEC{
+}

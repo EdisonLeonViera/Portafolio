@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloGnral.css">
+    <link rel="stylesheet" href="css/estiloIngreso.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navLaudum">
+        <a class="laudum" href="index.html#bienvenida">
+            <h1>LAUDUM</h1>
+        </a>
+        <div class="navLista">
+            <ul>
+                <li> <a class="navListaA" href="index.html#comoFunciona">¿Como Funciona?</a></li>
+                <li> <a class="navListaA" href="index.html#claseARM">Arbitraje </a></li>
+                <li> <a class="navListaA" href="index.html#claseARM">Mediación </a></li>
+                <li> <a class="navListaA" href="index.html#claseARM">Reclamos </a></li>
+                <li> <a class="navListaA" href="index.html#tarifas">Tarifas</a></li>
+                <li> <a class="navListaA" href="index.html#preguntasFrecuentes">Preguntas Frecuentes</a></li>
+                <li> <a class="navListaA" href="index.html#contacto">Contacto</a></li>
+                <li> <a class="ingresar" href="ingresar.html">INGRESAR</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="contenedorIngreso">
+        <section class="login">
+            <div class="contenedorLogin">
+                <img name="imagen5" src="imagenes/login.png" class="imgContendorlogin">
+                <div class="textoLogin">
+                    <p>Aca podras ver tus casuas:</p>
+                    <form action="" class="formLogIng">
+                    <input type="text" placeholder="Usuario" class="inputLogin">
+                    <input type="password" placeholder="Clave" class="inputLogin">
+                    </form>
+                </div>
+                <div class="contenedorBtnsLogin">
+                    <button type="button" onclick="crearUsuario()" class="botonesLoginL">Ingresar</button><button
+                        type="button" onclick="crearUsuario()" class="botonesLoginR">Crear</button>
+                </div>
+            </div>
+            <div class="displayLogin" id="displayLogin">
+                <div class="loginDiv" id="loginDiv">
+                    <h2>¿Por que Laudum?</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officiis rerum, quis
+                                ipsa,
+                                soluta ratione iure ducimus, deserunt culpa consequatur eos quaerat! Numquam suscipit
+                                commodi incidunt ut voluptates et amet!</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officiis rerum, quis
+                                ipsa,
+                                soluta ratione iure
+                                ducimus, deserunt culpa consequatur eos quaerat! Numquam suscipit commodi incidunt ut
+                                voluptates et amet!</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officiis rerum, quis
+                                ipsa,
+                                soluta ratione iure
+                                ducimus, deserunt culpa consequatur eos quaerat! Numquam suscipit commodi incidunt ut
+                                voluptates et amet!</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="contacto" id="contacto">
+        <div class="contactoTitulo">
+            <h1>Contacto </h1><br>
+        </div>
+        <div class="contactoTexto">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil nobis commodi veritatis? Et non, ex
+                temporibus obcaecati hic rerum mollitia a in tempora molestias enim accusantium doloribus numquam
+                consectetur nisi.</p>
+        </div>
+        <a href="#bienvenida" class="volverArribaFooter">
+            <img src="imagenes/flechaArriba2.png" alt="" class="volverArribaFlechaFooter">
+        </a>
+    </footer>
+
+    <script text="text/javascript" src="js/animationLogin.js"></script>
+</body>
+
+</html>
