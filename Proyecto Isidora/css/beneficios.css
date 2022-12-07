@@ -1,0 +1,47 @@
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-SemiBold;
+    src: url("tipografia/Grtsk-Peta-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+
+/*-- Estilo por seccion --*/
+
+.bodyBeneficios {
+    background-image: url("../img/fondos/FondoBeneficios.jpg");
+}
+
+.mainBeneficios {
+    display: inline-block;
+    padding-top: 7%;
+    margin: auto;
+}
+
+#titulo {
+    text-align: center;
+    font-family: GrstksPeta-SemiBold;
+    font-size: 48pt;
+}
+
+.sectionBeneficios {
+    margin: 6% auto;
+    text-align: center;
+}
+
+.sectionBeneficios h1 {
+    font-family: GrstksPeta-Regular;
+    font-size: 28pt;
+    text-align: left;
+}
+
+.Beneficio {
+    display: inline-block;
+    width: 20%;
+    padding: 0 6%;
+}

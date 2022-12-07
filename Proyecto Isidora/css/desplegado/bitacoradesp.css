@@ -1,0 +1,88 @@
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-SemiBold;
+    src: url("../tipografia/Grtsk-Peta-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("../tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("../tipografia/MyriadPro-Regular.otf") format("opentype");
+}
+
+
+/*-- Estilo por seccion --*/
+
+.bodyBitacoradesp {
+    background-image: url("../../img/fondos/BitacoraDesp.jpg");
+    background-size: cover;
+}
+
+.bitacorasDescripcion {
+    display: inline-block;
+    width: 80%;
+}
+
+.bitacoraDespMain {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.bitacoraImg {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+.portadaBitacora {
+    width: 90%;
+    padding-right: 5%;
+}
+
+.bitacoraText {
+    display: inline-block;
+    width: 40%;
+    padding-left: 2%;
+    padding-top: 2%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.bitacoraText h1 {
+    text-align: center;
+    font-family: GrstksPeta-SemiBold, courier;
+    font-size: 34pt;
+}
+
+.bitacoraText p {
+    text-align: left;
+    font-family: GrstksPeta-Regular;
+    font-size: 18pt;
+}
+
+.flechas {
+    display: inline-block;
+    margin-top: 4%;
+    width: 80%;
+}
+
+.flechas img {
+    width: 30%;
+}
+
+.flechaAtras {
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+}
+
+.flechaAdelante {
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+}

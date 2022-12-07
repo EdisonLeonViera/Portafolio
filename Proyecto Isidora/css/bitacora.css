@@ -1,0 +1,74 @@
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-SemiBold;
+    src: url("tipografia/Grtsk-Peta-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("tipografia/MyriadPro-Regular.otf") format("opentype");
+}
+
+
+/*-- Estilo por seccion --*/
+
+.bodyBitacora {
+    background-image: url("../img/fondos/FondoBitacora.jpg");
+    background-attachment: fixed;
+}
+
+.mainBitacora {
+    display: inline-block;
+}
+
+.sectionBitacora {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.sectionBitacora h1 {
+    font-family: GrstksPeta-Regular;
+    font-size: 48pt;
+    text-align: left;
+    padding: 2% 0;
+}
+
+.sectionBitacora h6 {
+    font-family: MyriadPro-Regular;
+    font-size: 15pt;
+    text-align: left;
+    padding: 4% 0;
+}
+
+.sectionBitacora p {
+    font-family: GrstksPeta-Regular;
+    font-size: 18pt;
+    text-align: left;
+    height: 100%;
+}
+
+.sectionBitacora a {
+    display: block;
+    font-family: GrstksPeta-Regular;
+    font-size: 18pt;
+    text-align: left;
+}
+
+.Bitacora {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    padding: 3% 3%;
+    margin: 1%;
+}
+
+.Bitacora img {
+    width: 100%;
+}

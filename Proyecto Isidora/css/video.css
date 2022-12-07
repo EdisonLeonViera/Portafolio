@@ -1,0 +1,36 @@
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+
+/*-- Estilo por seccion --*/
+
+.bodyVideo {
+    background-image: url("../img/fondos/FondoVideo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tituloVideo {
+    display: inline-block;
+    width: 52%;
+    text-align: right;
+    font-family: GrstksPeta-Regular;
+    font-size: 42pt;
+    font-weight: bold;
+    margin: 5% 0%;
+}
+
+.videoSection {
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.imgPortada {
+    width: 25%;
+    margin: 1%;
+}

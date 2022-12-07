@@ -1,0 +1,56 @@
+/*-- Inicializador --*/
+
+* {
+    margin: 0;
+}
+
+
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+
+/*-- Barra de Navegacion --*/
+
+.navBar {
+    display: inline;
+    /*position: sticky;*/
+    padding-top: 15px;
+    margin-bottom: 10px;
+    top: 0;
+    z-index: 20;
+}
+
+.navLista {
+    display: inline-block;
+    width: 76%;
+    text-align: left;
+    font-size: 14pt;
+    right: 2%;
+    font-family: GrstksPeta-Regular;
+}
+
+.navLista ul li {
+    display: inline;
+}
+
+.navLista ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navListaA {
+    display: inline-block;
+    margin: 10px;
+}
+
+.navListaA:hover,
+.ingresar:hover,
+.laudum:hover {
+    transition: 0.1s all ease;
+    transform: scale(1.1);
+    text-decoration: underline;
+}

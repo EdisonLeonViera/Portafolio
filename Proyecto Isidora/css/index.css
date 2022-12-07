@@ -1,0 +1,45 @@
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+
+/*-- Estilo por seccion --*/
+
+.bodyIndex {
+    background-image: url("../img/fondos/FondoIndex.jpg");
+}
+
+.mainIndex {
+    display: inline-block;
+    padding-top: 20%;
+    margin: auto;
+}
+
+.sectionIndex {
+    font-size: 2rem;
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.sectionIndex img {
+    width: 88%;
+    padding-top: 3%;
+}
+
+.asideIndex {
+    display: inline-block;
+    width: 49%;
+}
+
+.asideIndex p {
+    text-align: justify;
+    font-family: GrstksPeta-Regular;
+    font-size: 16pt;
+    width: 90%;
+    padding-left: 3%;
+}

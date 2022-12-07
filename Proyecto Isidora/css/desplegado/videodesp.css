@@ -1,0 +1,66 @@
+/*-- Fuentes --*/
+
+@font-face {
+    font-family: GrstksPeta-SemiBold;
+    src: url("../tipografia/Grtsk-Peta-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GrstksPeta-Regular;
+    src: url("../tipografia/GrtskPeta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadPro-Regular;
+    src: url("../tipografia/MyriadPro-Regular.otf") format("opentype");
+}
+
+
+/*-- Estilo por seccion --*/
+
+.bodyVideoDesp {
+    background-image: url("../../img/fondos/VideoDesp.jpg");
+    background-size: cover;
+}
+
+.mainVideoDesp {
+    display: inline-block;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.videoContainer {
+    display: inline-block;
+    width: 40%;
+}
+
+.video {
+    width: 100%;
+}
+
+.videoDescrip {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 3%;
+}
+
+.videoDescrip h1 {
+    font-family: GrstksPeta-Regular;
+    font-size: 48pt;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.videoDescrip h6 {
+    font-family: MyriadPro-Regular;
+    font-size: 15pt;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.videoDescrip p {
+    font-family: GrstksPeta-Regular;
+    font-size: 18pt;
+    text-align: left;
+}
