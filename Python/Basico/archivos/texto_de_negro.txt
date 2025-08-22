@@ -1,0 +1,19 @@
+jajaja que mamadas
+Hola maestro 
+perro loco
+Hola maestro 
+perro loco
+Recordar que el 'a' es el tipo de permiso append pero seguimos usando write
+Recordar que el 'a' es el tipo de permiso append pero seguimos usando write
+Linea 0Linea 1Linea 2Linea 3Linea 4Recordar que el 'a' es el tipo de permiso append pero seguimos usando write
+Linea 0
+Linea 1
+Linea 2
+Linea 3
+Linea 4
+Recordar que el 'a' es el tipo de permiso append pero seguimos usando write
+Linea 1
+Linea 2
+Linea 3
+Linea 4
+Linea 5

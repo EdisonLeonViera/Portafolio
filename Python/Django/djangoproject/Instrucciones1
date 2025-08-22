@@ -1,0 +1,60 @@
+cada carpeta es un proyecto osea su propio entorno vistual con su propia version de python, django y los paquetes
+pór lo que cada instalacion o dependencia es independiente de la otra
+
+
+clear para borrar la consola
+exit para salir
+cd para moverse a una ruta
+cd.. para salir una carpeta
+
+para isntalar el entorno usaremos pip con el siguinete comando de nuestra CMD(ejecutar como administrador) en nuestra carpeta donde estara mi proyecto
+pip install virtualenv
+
+se descarga y al finalizar darle, para confirmar
+virtualenv --version
+
+Le damos el siguiente comando para crear el entorno virtual
+virtualenv venv
+
+luego para activarlo le damos
+.\venv\Scripts\activate
+
+apreto F1 para seleccionar el interprete del entorno, con python selecter
+tambien puedo abrir una consola para activar el ambiente desde aca debo apuntar al bat
+C:\Users\ed_de\OneDrive\Desktop\Cursos\Python\Django\djangoproject\venv\Scripts\activate.bat
+
+abajo en la flechita CMD en el visual
+
+para instalar django debemos instalarlo con
+pip install django
+
+para confirmar q django tengo es
+django-admin --version
+o con
+python -m django --version
+
+para inciar nuestro proyecto (esto es aparte del entorno) es:
+django-admin startproject mysite
+
+puedo borrar estas carpteas con delete simple
+
+para poder dejar todo dentro de la misma carpetas, con el punto indicamos que sea en la misma carpeta
+django-admin startproject mysite .
+
+para poder correr el server
+python manage.py runserver
+
+para cambiar el puerto del runserver es con
+python manage.py runserver 3000
+
+para ver la ayuda de manage.py
+python manage.py --help
+
+
+Los proyectos se componen de aplicaciones
+para crear una aplicacion se usa el comando
+python manage.py startapp blog
+
+hasta este punto no estann conectados y se pueden eliminar aun
+en esta forma mysite vendria siendo el proyecto principal y tendria sus aplicaciones
+entonces uno debe llarmar estas aplicaciones desde mysite que vendria siendo el nucleo

@@ -1,0 +1,62 @@
+creamos nuestra aplicacion como quedamos en el anterior
+python manage.py startapp myapp
+
+la carpte de migraciones se va llenando con las modificaciones de la BD
+aca python tiene su propio ORM
+
+admin es nuestro administrador del proyecto
+
+apps es para las propias configuraciones de la app
+
+model es para los modelos desde la base de datos o viceversa
+estos se hacen con archivos de migraciones
+-------------------------------------------------------------------------------------------
+en urls.py tenemos los enrutamientos
+cuando tenemos mas app puede ser mas tedioso por eso usamos include como las app
+asi improtamos la aplicacion
+
+continua en urls.py de myapp
+-----------------------------------------------------------------------------------
+migraciones
+
+las migraciones son los cambios que nosotromos hacemos en el programa 
+para actualizar la base de datos
+python manage.py makemigrations
+
+python manage.py migrate
+
+---------------------------------------------------------------------------------------
+models
+
+nos vamos a models.py
+------------------------------------------------------------------------
+
+comando de shell para manejar los models
+
+python manage.py shell
+
+#para crear un dato que se comparta desde la shell
+(InteractiveConsole)
+>>> from myapp.models import Project, Task
+>>> p = Project.objects.get(id=1)
+>>> p.task_set.all()
+<QuerySet []>
+>>> p.task_set.create(title = "Descargando IDE")
+<Task: Task object (1)>
+>>> p.task_set.create(title = "Desarrollar login")  
+<Task: Task object (2)>
+>>> p.task_set.get(id = 1)                        
+<Task: Task object (1)>
+>>> p.task_set.all()                              
+<QuerySet [<Task: Task object (1)>, <Task: Task object (2)>]>
+>>> p.task_set.get(id = 1)
+<Task: Task object (1)>
+>>> Project.objects.filter(name__startswith="aplicacion")
+<QuerySet [<Project: Project object (1)>, <Project: Project object (2)>]>
+>>>
+
+------------------------------------------------------------------------------
+
+crear usuario admin
+
+python manage.py createsuperuser
