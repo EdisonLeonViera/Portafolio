@@ -1,0 +1,20 @@
+tamaño fuente 18px
+separacion de titulos y texto (comoen el landing)
+decoracion de separacion 
+igualar imaganes del landing y de la biblioteca
+cambiar de biblioteca a galeria
+en el incio agregar la seccion a los titulos de portadas
+seguir idea de ladera del sur 
+
+img
+286 * 286
+
+Card
+306 * 360
+
+----------------------------- 19 - 08 - 2025
+
+reestructuracion del footer
+cambios a la portada, imagen para celu e imagen para ordenador
+preparar cineteca, insersion video yutu
+cambiar titulo pagina

@@ -1,0 +1,9 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+/* variables */
+:root {
+    --font-main: 'Montserrat', sans-serif;
+    --color-bg: #222;
+    --color-text: #fff;
+}
